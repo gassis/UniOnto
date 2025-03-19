@@ -1,0 +1,2953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Tuiuti_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Tuiuti do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Social_da_Bahia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Social da Bahia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279313"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_João_da_Boa_Vista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São João da Boa Vista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q925419"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Barão_Geraldo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Barão Geraldo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q4866112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_Roraima">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de Roraima</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302491"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Lajeado">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Lajeado</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1012550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Belém">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Belém</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q12829733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_para_o_Desenvolvimento_do_Alto_Vale_do_Itajaí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário para o Desenvolvimento do Alto Vale do Itajaí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Curitiba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Curitiba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q4361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_Grande_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio Grande do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q40030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Paleontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Geosciences"/>
+    <rdfs:label xml:lang="en">Paleontology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18614247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ananindeua">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ananindeua</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q485887"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Curitiba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Curitiba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q6174695"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Alto_Vale_do_Rio_do_Peixe">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Alto Vale do Rio do Peixe</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387771"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Porto_Alegre">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Porto Alegre</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q40269"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1784001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Leopoldo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Leopoldo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q688275"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q81882"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Metropolitana_de_Santos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Metropolitana de Santos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387853"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#InformationSecurity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">InformationSecurity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Capivari_de_Baixo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Capivari de Baixo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1750765"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_José_do_Rio_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São José do Rio Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q192181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Americana">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Americana</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q467421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Ecology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Ecology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q294952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#PhysicalChemistry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Chemistry"/>
+    <rdfs:label xml:lang="en">PhysicalChemistry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Informática_e_Administração_Paulista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Informática e Administração Paulista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5428837"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1232831"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ilhéus">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ilhéus</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q373705"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Piauí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Piauí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387821"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Fumec">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Fumec</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Batista_Brasileira">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Batista Brasileira</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279221"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Lins">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Lins</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Cásper_Líbero">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Cásper Líbero</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5091543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Gama">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Gama</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q93572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Brasília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Brasília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Salesiano_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Salesiano de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_São_José_do_Rio_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de São José do Rio Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Passo_Fundo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Passo Fundo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q525647"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Laranjeiras_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Laranjeiras do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1803900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_e_Ciências">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia e Ciências</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Pontifícia_Universidade_Católica_de_Goiás">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Pontifícia Universidade Católica de Goiás</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3551820"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Superior_Aberta_do_Brasil">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Superior Aberta do Brasil</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Law">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#SocialAppliedSciences"/>
+    <rdfs:label xml:lang="en">Law</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q400674"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_da_Paraíba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia da Paraíba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302480"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_do_Amazonas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado do Amazonas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7896773"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_das_Faculdades_Metropolitanas_Unidas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário das Faculdades Metropolitanas Unidas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18370083"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15499"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Extremo_Sul_Catarinense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Extremo Sul Catarinense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2495752"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Infnet">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Infnet</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q56846775"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Natal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Natal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279546"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ciências_Médicas_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ciências Médicas de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279373"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ConstitutionalLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">ConstitutionalLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Geosciences">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ExactAndEarthSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Geosciences</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q27725009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Brasileira_de_Economia_e_Finanças">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Brasileira de Economia e Finanças</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5397366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Dinâmica_das_Cataratas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Dinâmica das Cataratas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q56840758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Novo_Hamburgo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Novo Hamburgo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q321331"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_IBMR">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário IBMR</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302427"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Marília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Marília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387893"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Analysis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Mathematics"/>
+    <rdfs:label xml:lang="en">Analysis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q341854"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Bandeirante_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Bandeirante de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894354"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ensino_Superior_do_Interior_Paulista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ensino Superior do Interior Paulista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279473"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Regional_do_Cariri">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Regional do Cariri</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387864"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cascavel">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cascavel</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q205681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Integrada_Tiradentes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Integrada Tiradentes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279269"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Mato_Grosso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Mato Grosso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q42824"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Christus">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Christus</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279234"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Amazonas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Amazonas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5440476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Nacional_de_Educação_de_Surdos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Nacional de Educação de Surdos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Presbiteriana_Mackenzie">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Presbiteriana Mackenzie</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894395"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Assis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Assis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q742227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_da_Fronteira_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal da Fronteira Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ParticlePhysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Physics"/>
+    <rdfs:label xml:lang="en">ParticlePhysics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AppliedMathematics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Mathematics"/>
+    <rdfs:label xml:lang="en">AppliedMathematics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#DevelopmentalBiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneralBiology"/>
+    <rdfs:label xml:lang="en">DevelopmentalBiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Montes_Claros">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Montes Claros</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q651906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Itaúna">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Itaúna</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q628877"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q174"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Fundação_Santo_André">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Fundação Santo André</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10286399"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Pontifícia_Universidade_Católica_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Pontifícia Universidade Católica de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1815994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Luís">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Luís</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q28441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Governador_Valadares">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Governador Valadares</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q462218"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_de_Matemática_e_Estatística_da_Universidade_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto de Matemática e Estatística da Universidade de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302895"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Mogi_das_Cruzes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Mogi das Cruzes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q194332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_do_Sul_da_Bahia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade do Sul da Bahia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q28679582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_de_Ensino_Superior_de_Juiz_de_Fora">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro de Ensino Superior de Juiz de Fora</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9728921"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Ruy_Barbosa_Wyden">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Ruy Barbosa Wyden</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279307"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Estadual_da_Zona_Oeste">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Estadual da Zona Oeste</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_da_Região_da_Campanha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade da Região da Campanha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387885"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Botany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Botany</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2976045"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Toledo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Toledo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Teológica_Batista_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Teológica Batista de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279317"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Fortaleza">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Fortaleza</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Superior_de_Propaganda_e_Marketing">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Superior de Propaganda e Marketing</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3847972"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Natal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Natal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q131620"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ponta_Grossa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ponta Grossa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q242906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Teixeira_de_Freitas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Teixeira de Freitas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q282335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Direito_de_Sorocaba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Direito de Sorocaba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q6503089"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Superior_de_Ciências_da_Saúde">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Superior de Ciências da Saúde</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Ourinhos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Ourinhos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7665656"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Farroupilha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Farroupilha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q535531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Geology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Geosciences"/>
+    <rdfs:label xml:lang="en">Geology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5535339"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Manaus">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Manaus</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q40236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Positivo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Positivo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Espírito_Santo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Espírito Santo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q43233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/created">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Santa_Marcelina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Santa Marcelina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279310"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Rio_Grande_do_Norte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ijuí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ijuí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q194374"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Vale_do_Rio_dos_Sinos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Vale do Rio dos Sinos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Patos_de_Minas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Patos de Minas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9727096"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Castanhal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Castanhal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279348"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#EcosystemEcology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Ecology"/>
+    <rdfs:label xml:lang="en">EcosystemEcology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_de_Ensino_Superior_Cenecista_de_Farroupilha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro de Ensino Superior Cenecista de Farroupilha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484529"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Administração,_Ciências,_Educação_e_Letras">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Administração, Ciências, Educação e Letras</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30263785"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Bom_Sucesso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Bom Sucesso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1805732"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Taguatinga">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Taguatinga</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q734609"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_do_Maranhão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário do Maranhão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9727195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Novos_Horizontes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Novos Horizontes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30263783"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7335377"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Campina_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Campina Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3848464"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Guarulhos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Guarulhos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q184409"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Sergipe">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Sergipe</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894380"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Acre">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Acre</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q40780"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Recife">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Recife</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q48344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santo_Ângelo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santo Ângelo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q824031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Goiás">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Goiás</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387810"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GenomicsAndProteomics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneticsAndMolecularBiology"/>
+    <rdfs:label xml:lang="en">GenomicsAndProteomics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cuiabá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cuiabá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q170762"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Católica_do_Leste_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Católica do Leste de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9727167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Pernambuco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Pernambuco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894399"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_de_Ensino_Superior_de_Valença">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro de Ensino Superior de Valença</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q48867906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Barra_Mansa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Barra Mansa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q29182738"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Santa_Maria">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Santa Maria</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3790133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302495"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Cenecista_de_Ensino_Superior_de_Santo_Ângelo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Cenecista de Ensino Superior de Santo Ângelo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Comunicação_e_Design_Digital">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Comunicação e Design Digital</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q132197693"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GeometryAndTopology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Mathematics"/>
+    <rdfs:label xml:lang="en">GeometryAndTopology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Pará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Pará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302499"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q869571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_de_Santos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica de Santos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1736410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Planaltina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Planaltina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2577688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Potiguar">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Potiguar</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387860"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Chapecó">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Chapecó</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q817387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#TheoryOfLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">TheoryOfLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Mafra">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Mafra</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1020414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Campo_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Campo Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q168929"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Norte_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302498"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Moura_Lacerda">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Moura Lacerda</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484131"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Batista_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Batista de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2881295"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Vale_do_Rio_Verde">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Vale do Rio Verde</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387880"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#None">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">None</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18469733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_FAVENI">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário FAVENI</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Restinga_Sêca">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Restinga Sêca</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1757460"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_Sul-rio-grandense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302481"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#PlantEcology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Botany"/>
+    <rdfs:label xml:lang="en">PlantEcology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Metodista_de_Piracicaba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Metodista de Piracicaba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387852"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Insper_Instituto_de_Ensino_e_Pesquisa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Insper Instituto de Ensino e Pesquisa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q6038499"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centenário_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Centenário do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1775764"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Seropédica">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Seropédica</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q988677"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_Rural_do_Semi-árido">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal Rural do Semi-árido</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894369"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Professor_Edson_Antônio_Velano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Professor Edson Antônio Velano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387846"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Educação,_Administração_e_Tecnologia_de_Ibaiti">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Educação, Administração e Tecnologia de Ibaiti</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18477130"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_das_Faculdades_Associadas_de_Ensino">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário das Faculdades Associadas de Ensino</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484173"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Brasileira_de_Ciências_Jurídicas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Brasileira de Ciências Jurídicas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10372811"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_Santa_Catarina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7419281"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Franciscano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Franciscano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5062888"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Una">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Una</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9726859"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_das_Américas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade das Américas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_Paulista_Júlio_de_Mesquita_Filho">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual Paulista Júlio de Mesquita Filho</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1817137"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Mato_Grosso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Mato Grosso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894374"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Militar_de_Engenharia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Militar de Engenharia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1665208"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Fundação_Universidade_Federal_de_Ciências_da_Saúde_de_Porto_Alegre">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Fundação Universidade Federal de Ciências da Saúde de Porto Alegre</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2036836"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#CondensedMatterPhysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Physics"/>
+    <rdfs:label xml:lang="en">CondensedMatterPhysics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Lavras">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Lavras</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1638425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Uberlândia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Uberlândia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5440489"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Lavras">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Lavras</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484203"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Euro-americano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Euro-americano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9726572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Senac">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Senac</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Viçosa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Viçosa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5814528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Univates">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Univates</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387654"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2749558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_Branco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio Branco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q171612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Petrópolis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Petrópolis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q189043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_José_dos_Campos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São José dos Campos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q191642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Estudos_Superiores_de_Viçosa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Estudos Superiores de Viçosa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Mato_Grosso_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Mato Grosso do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387811"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#BusinessLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">BusinessLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_da_Amazônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade da Amazônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279324"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Nossa_Senhora_do_Patrocínio">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Nossa Senhora do Patrocínio</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Cândido_Mendes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Cândido Mendes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Cândido_Rondon">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Cândido Rondon</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9726533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Mogi_das_Cruzes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Mogi das Cruzes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cachoeira_Paulista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cachoeira Paulista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1760112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#KnowledgeSubArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Eurípedes_de_Marília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Eurípedes de Marília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5062887"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Ponta_Grossa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Ponta Grossa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7228043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Federal_District">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Federal District</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q119158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Fortaleza">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Fortaleza</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q43463"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Canção_Nova">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Canção Nova</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q48872000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AnimalTaxonomy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Zoology"/>
+    <rdfs:label xml:lang="en">AnimalTaxonomy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Praia_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Praia Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279618"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#PlantPhysiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Botany"/>
+    <rdfs:label xml:lang="en">PlantPhysiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Juazeiro_do_Norte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Juazeiro do Norte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q817227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#União_da_Vitória">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">União da Vitória</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q988869"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Rio_Verde">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Rio Verde</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387898"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Cristóvão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Cristóvão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q839003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cáceres">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cáceres</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q986526"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Indaiatuba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Indaiatuba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279598"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Meteorology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Geosciences"/>
+    <rdfs:label xml:lang="en">Meteorology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2741164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ilhéus">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ilhéus</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Tubarão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Tubarão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1815730"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Amapá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Amapá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Maranhão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Maranhão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5440477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Itapetiningano_de_Ensino_Superior">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Itapetiningano de Ensino Superior</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302562"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Realeza">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Realeza</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1802916"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_de_Petrópolis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica de Petrópolis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894360"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Caçador">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Caçador</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q986540"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cachoeira">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cachoeira</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q985576"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_dos_Vales_do_Jequitinhonha_e_Mucuri">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal dos Vales do Jequitinhonha e Mucuri</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387836"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Blumenau">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Blumenau</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q155557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Anhembi_Morumbi">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Anhembi Morumbi</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2043612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Economia,_Administração,_Atuária_e_Contabilidade_da_Universidade_Federal_do_Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Economia, Administração, Atuária e Contabilidade da Universidade Federal do Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279427"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Espírito_Santo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Espírito Santo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Adamantina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Adamantina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1637498"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Cenecista_Nossa_Senhora_dos_Anjos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Cenecista Nossa Senhora dos Anjos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279231"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Leonardo_da_Vinci">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Leonardo da Vinci</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Contestado">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Contestado</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387909"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Marília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Marília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q737660"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Araraquara">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Araraquara</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Montes_Claros">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Montes Claros</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387812"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Matemática_Aplicada">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Matemática Aplicada</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q48884443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Federal_de_Educação_Tecnológica_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Federal de Educação Tecnológica de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q159106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#EnvironmentalLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">EnvironmentalLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AdministrativeLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">AdministrativeLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Mogi_das_Cruzes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Mogi das Cruzes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387895"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Santa_Úrsula">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Santa Úrsula</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Municipal_de_Ensino_Superior_de_Assis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Municipal de Ensino Superior de Assis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18479663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Várzea_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Várzea Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q983884"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Meridional">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Meridional</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30263773"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Caetano_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Caetano do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q967648"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#InternationalLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">InternationalLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Mathematics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ExactAndEarthSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Mathematics</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q401540"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Petrolina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Petrolina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q842143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Luterano_de_Palmas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Luterano de Palmas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484116"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Região_Administrativa_Leste">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Região Administrativa Leste</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10358683"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Bahiana_de_Medicina_e_Saúde_Pública">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Bahiana de Medicina e Saúde Pública</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Itajubá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Itajubá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894372"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Jaboatão_dos_Guararapes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Jaboatão dos Guararapes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q271393"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Paranavaí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Paranavaí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1773355"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Paranaguá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Paranaguá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q503852"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Acre">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Acre</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#CriminalLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">CriminalLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Direito_Milton_Campos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Direito Milton Campos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279683"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_de_Mato_Grosso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado de Mato Grosso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387911"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Bauru">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Bauru</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Indaial">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Indaial</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1784570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_União_da_Vitória">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de União da Vitória</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ibaiti">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ibaiti</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2005227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Biotechnology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneticsAndMolecularBiology"/>
+    <rdfs:label xml:lang="en">Biotechnology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15753226"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Americana">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Americana</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cataguases">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cataguases</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1749746"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Jundiaí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Jundiaí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q275109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Três_Corações">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Três Corações</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1439211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Oceanography">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Geosciences"/>
+    <rdfs:label xml:lang="en">Oceanography</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7076223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AlgorithmsAndDataStructures">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">AlgorithmsAndDataStructures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Pontifícia_Universidade_Católica_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Pontifícia Universidade Católica de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q923610"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#OrganicChemistry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Chemistry"/>
+    <rdfs:label xml:lang="en">OrganicChemistry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Campos_dos_Goytacazes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Campos dos Goytacazes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q689868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Carlos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Carlos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q194338"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Telêmaco_Borba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Telêmaco Borba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5428845"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#CellularBiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneralBiology"/>
+    <rdfs:label xml:lang="en">CellularBiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GeneralPhysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Physics"/>
+    <rdfs:label xml:lang="en">GeneralPhysics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#CivilLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">CivilLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_Catarinense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia Catarinense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302474"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Tocantins">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Tocantins</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302507"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Boa_Vista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Boa Vista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q181056"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:description>Detailed representation of areas and subareas of knowledge according to the CAPES table.</dc:description>
+    <dc:title>CAPES Knowledge Areas Ontology</dc:title>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-15</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estácio_de_Sá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estácio de Sá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2091986"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Presidente_Prudente">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Presidente Prudente</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q525618"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Jorge_Amado">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Jorge Amado</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10981457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_Goiás">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de Goiás</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1665204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Goiás">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Goiás</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q427697"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Vale_do_Paraíba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Vale do Paraíba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894998"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Maringá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Maringá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Teresina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Teresina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q165341"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GeneralBiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">GeneralBiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Viçosa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Viçosa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1780182"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#MolecularBiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneralBiology"/>
+    <rdfs:label xml:lang="en">MolecularBiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#São_Bernardo_do_Campo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">São Bernardo do Campo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q184403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Tecnológico_de_Aeronáutica">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Tecnológico de Aeronáutica</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1317163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Franca">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Franca</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387894"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Rio_Grande_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7335253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Norte_Fluminense_Darcy_Ribeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Norte Fluminense Darcy Ribeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7603631"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Avaré">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Avaré</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q782812"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_da_Região_de_Joinville">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade da Região de Joinville</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387888"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Direito_de_Itú">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Direito de Itú</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279423"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santa_Maria">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santa Maria</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q740833"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Apucarana">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Apucarana</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1638385"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Santo_Amaro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Santo Amaro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387902"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Medicina_de_Petrópolis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Medicina de Petrópolis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Foz_do_Iguaçu">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Foz do Iguaçu</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q202316"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q8678"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Projeção">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Projeção</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279303"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#HumanEcology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Ecology"/>
+    <rdfs:label xml:lang="en">HumanEcology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Capivari">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Capivari</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q25427952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Metropolitana_da_Grande_Recife">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Metropolitana da Grande Recife</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279280"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_do_Norte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário do Norte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484239"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Diamantina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Diamantina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q34028"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Valença">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Valença</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1005931"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AnalyticalChemistry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Chemistry"/>
+    <rdfs:label xml:lang="en">AnalyticalChemistry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Belém">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Belém</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Pelotas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Pelotas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q109188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Alagoas_-_Uneal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Alagoas - Uneal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_São_Bento_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade São Bento do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Pitágoras_de_Teixeira_de_Freitas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Pitágoras de Teixeira de Freitas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30931965"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#UNINTER">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">UNINTER</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484107"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GeneralEcology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Ecology"/>
+    <rdfs:label xml:lang="en">GeneralEcology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_São_Judas_Tadeu">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade São Judas Tadeu</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894396"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Juiz_de_Fora">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Juiz de Fora</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q193019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302487"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#NuclearPhysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Physics"/>
+    <rdfs:label xml:lang="en">NuclearPhysics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Politécnica_de_Uberlândia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Politécnica de Uberlândia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279300"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_Dom_Bosco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica Dom Bosco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894353"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_São_José_dos_Campos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de São José dos Campos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279625"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Farias_Brito">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Farias Brito</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Paranaense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Paranaense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894390"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Avm_-_Faculdade_Integrada">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Avm - Faculdade Integrada</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30299268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Jaguariaíva">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Jaguariaíva</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10388045"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Sul_de_Santa_Catarina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Sul de Santa Catarina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2495772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Araçatuba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Araçatuba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279583"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Sobral">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Sobral</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1815899"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Araraquara">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Araraquara</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q626247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_Rural_de_Pernambuco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal Rural de Pernambuco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894368"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Integradas_de_São_Carlos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Integradas de São Carlos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279678"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ribeirão_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ribeirão Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q188892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Economia_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Economia de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5397363"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Praia_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Praia Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q851292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#InorganicChemistry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Chemistry"/>
+    <rdfs:label xml:lang="en">InorganicChemistry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Evangélica_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Evangélica do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279255"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Nova_Lima">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Nova Lima</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1642662"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_de_Pernambuco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica de Pernambuco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894356"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Medicina_de_Itajubá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Medicina de Itajubá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279536"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Bagé">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Bagé</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q119140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Rio_Grande_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Rio Grande do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q766447"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_dos_Guararapes">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade dos Guararapes</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q19708050"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Roraima">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Roraima</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q42508"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Alfenas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Alfenas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Metropolitano_da_Amazônia-_UNIFAMAZ">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Metropolitano da Amazônia- UNIFAMAZ</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279279"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Cesumar">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Cesumar</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Capão_Redondo_District">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Capão Redondo District</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9696391"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Sobradinho">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Sobradinho</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2572868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Araçatuba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Araçatuba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q626835"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_Fluminense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal Fluminense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Quixadá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Quixadá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2013932"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Monte_Serrat">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Monte Serrat</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Maranhão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Maranhão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387817"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Piauí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Piauí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q945699"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Caxias_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Caxias do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q110017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ciências_Aplicadas_e_Sociais_de_Petrolina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ciências Aplicadas e Sociais de Petrolina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279356"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_São_Lucas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade São Lucas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30263774"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Brasileira_de_Administração_Pública_e_de_Empresas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Brasileira de Administração Pública e de Empresas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5397328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Ethology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Zoology"/>
+    <rdfs:label xml:lang="en">Ethology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15757257"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ComputerGraphics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">ComputerGraphics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Macapá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Macapá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q180215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Uberlândia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Uberlândia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q194328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_Verde_de_Mato_Grosso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio Verde de Mato Grosso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1805638"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_do_Rio_Grande_do_Norte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado do Rio Grande do Norte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387913"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Arapiraca">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Arapiraca</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q626175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Zoology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Zoology</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q8074126"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_La_Salle">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário La Salle</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q19704353"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_João_Pessoa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de João Pessoa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q9727031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Adventista_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Adventista de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3551513"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ciências_Médicas_de_Campina_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ciências Médicas de Campina Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279372"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Rio_Grande_do_Norte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Rio Grande do Norte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3847505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Palmas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Palmas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q178993"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#UNIAENE_-_Centro_Universitário_Adventista_de_Ensino_do_Nordeste">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">UNIAENE - Centro Universitário Adventista de Ensino do Nordeste</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279213"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Nova_Esperança">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Nova Esperança</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q936233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Criciúma">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Criciúma</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1439157"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Vitoria">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Vitoria</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q168376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Laranjeiras">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Laranjeiras</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q727335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Cambury">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Cambury</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q25438940"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Regional_do_Noroeste_do_Estado_do_Rio_Grande_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Regional do Noroeste do Estado do Rio Grande do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387866"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Estadual_de_Ciências_Econômicas_de_Apucarana">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Estadual de Ciências Econômicas de Apucarana</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Nacional_de_Administração_Pública">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Nacional de Administração Pública</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q97378436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#InformationSystems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">InformationSystems</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Itu">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Itu</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q957653"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santarém">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santarém</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q659450"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ceilândia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ceilândia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1002818"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santa_Rita_do_Sapucaí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santa Rita do Sapucaí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1650861"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Várzea_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Várzea Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484232"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Castelo_Branco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Castelo Branco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Januária">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Januária</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q22062457"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Tecnológica_Federal_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Tecnológica Federal do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1131055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Maceió">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Maceió</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q168888"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Newton_Paiva">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Newton Paiva</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ComputationalTheory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">ComputationalTheory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Florianópolis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Florianópolis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q132997"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Oeste_Paulista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Oeste Paulista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387915"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Regional_de_Blumenau">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Regional de Blumenau</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387863"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2495760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Mossoró">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Mossoró</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q694845"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Machado">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Machado</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1780021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Ceres">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Ceres</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_Fluminense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal Fluminense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q280247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Federal_de_Educação_Tecnológica_Celso_Suckow_da_Fonseca">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Federal de Educação Tecnológica Celso Suckow da Fonseca</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q756916"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Espírito_Santo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302497"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Ribeirão_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Ribeirão Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387899"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Jesuíta_de_Filosofia_e_Teologia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Jesuíta de Filosofia e Teologia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1532146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_Superior_Madre_Celeste">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola Superior Madre Celeste</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274460"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#SoftwareEngineering">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">SoftwareEngineering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Itajubá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Itajubá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q985585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Salvador">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Salvador</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q36947"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Amapá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Amapá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894381"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_da_Amazônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade da Amazônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q4504755"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_São_Bernardo_do_Campo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de São Bernardo do Campo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_de_Santa_Catarina">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado de Santa Catarina</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3551702"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Vespasiano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Vespasiano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1012546"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Padre_Anchieta">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Padre Anchieta</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Belo_Horizonte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Belo Horizonte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q42800"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Betim">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Betim</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q737644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Feevale">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Feevale</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894384"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Sorocaba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Sorocaba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q188901"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2840233"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Rondônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Rondônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894377"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Coronel_Fabriciano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Coronel Fabriciano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q80004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Nacional_de_Pesquisas_da_Amazônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Nacional de Pesquisas da Amazônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1636101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#PlantTaxonomy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Botany"/>
+    <rdfs:label xml:lang="en">PlantTaxonomy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Sumaré">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Sumaré</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q56351700"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AnimalEcology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Zoology"/>
+    <rdfs:label xml:lang="en">AnimalEcology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Católica_de_Quixadá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Católica de Quixadá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279228"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Piracicaba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Piracicaba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q330175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Medicina_de_São_José_do_Rio_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Medicina de São José do Rio Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279540"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Superior_de_Teologia_Aplicada">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Superior de Teologia Aplicada</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302703"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Saúde_e_Formação_Complementar_do_Exército">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Saúde e Formação Complementar do Exército</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Castanhal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Castanhal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q984581"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ExactAndEarthSciences">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeArea"/>
+    <rdfs:label xml:lang="en">ExactAndEarthSciences</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Camilo_Castelo_Branco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Camilo Castelo Branco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387776"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rondônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rondônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q43235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_Rural_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal Rural do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7834196"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_da_Paraíba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual da Paraíba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q4984567"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#João_Pessoa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">João Pessoa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q167436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Metodista_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Metodista de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Cerro_Largo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Cerro Largo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1786013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Vale_do_Rio_Doce">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Vale do Rio Doce</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387881"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Lages">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Lages</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q762009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Telêmaco_Borba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Telêmaco Borba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q391843"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Facens">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Facens</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5428835"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Jaguariaíva">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Jaguariaíva</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1803599"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_da_Paraíba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal da Paraíba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5440479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Geophysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Geosciences"/>
+    <rdfs:label xml:lang="en">Geophysics</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q15755784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santo_André">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santo André</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q49133952"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q191652"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Santa_Cruz_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Santa Cruz do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q781510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Perdizes_District">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Perdizes District</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7167709"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_Mato_Grosso">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302485"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Oswaldo_Cruz">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Oswaldo Cruz</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Gravataí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Gravataí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q694822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Uberaba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Uberaba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q381733"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_do_Sudeste_de_Minas_Gerais">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal do Sudeste de Minas Gerais</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302504"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Algebra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Mathematics"/>
+    <rdfs:label xml:lang="en">Algebra</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q232448"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Ritter_dos_Reis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Ritter dos Reis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5062890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Estadual_de_Ciências_e_Letras_de_Campo_Mourão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Estadual de Ciências e Letras de Campo Mourão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279248"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Databases">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">Databases</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q44567892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Itaúna">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Itaúna</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7895570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_da_Cidade">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola da Cidade</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_Goiano">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia Goiano</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10299362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_de_Educação_Superior_da_Paraíba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto de Educação Superior da Paraíba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302820"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Patos_de_Minas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Patos de Minas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q984571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Sudoeste_Paulista">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Sudoeste Paulista</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18477089"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Nordeste">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Nordeste</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279684"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#TaxLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">TaxLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Ouro_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Ouro Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q6741204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Erechim">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Erechim</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q642088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ProbabilityAndStatistics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Mathematics"/>
+    <rdfs:label xml:lang="en">ProbabilityAndStatistics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Direito_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Direito de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5397361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Integradas_Espírito_Santenses">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Integradas Espírito Santenses</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279662"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Tecnologia_de_Garça">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Tecnologia de Garça</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279594"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Lavras">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Lavras</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387826"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Maringá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Maringá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q208669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Vila_Velha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Vila Velha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387883"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_Rural_da_Amazônia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal Rural da Amazônia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q20061641"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Rio_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Rio Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5508999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Garça">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Garça</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q940614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Barbacena">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Barbacena</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q807311"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Ciências_da_Saúde_de_Alagoas_-_Uncisal">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Ciências da Saúde de Alagoas - Uncisal</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387809"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Goiânia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Goiânia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q83189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Teológica_Batista_Ana_Wollerman">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Teológica Batista Ana Wollerman</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279318"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Nilton_Lins">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Nilton Lins</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ComputerNetworks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">ComputerNetworks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Caxias_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Caxias do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5392048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Superior_de_Ensino_e_Pesquisa_de_Machado">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Superior de Ensino e Pesquisa de Machado</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484073"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Integradas_de_Vitória">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Integradas de Vitória</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18477225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_de_Pelotas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica de Pelotas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894357"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Integradas_Rio_Branco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Integradas Rio Branco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5428848"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciencia_e_Tecnologia_de_Brasilia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciencia e Tecnologia de Brasilia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302482"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Zumbi_dos_Palmares">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Zumbi dos Palmares</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q51774546"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Nacional_de_Telecomunicações">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Nacional de Telecomunicações</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q6013669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Campo_Mourão">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Campo Mourão</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1773327"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Estado_do_Pará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Estado do Pará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q4562501"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#MolecularGenetics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#GeneticsAndMolecularBiology"/>
+    <rdfs:label xml:lang="en">MolecularGenetics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Paraíso_do_Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Paraíso do Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279294"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Joinville">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Joinville</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q156819"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Católica_de_Brasília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Católica de Brasília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Municipal_de_São_Caetano_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Municipal de São Caetano do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894391"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Vilhena">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Vilhena</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1749958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_do_Amazonas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia do Amazonas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Pontifícia_Universidade_Católica_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Pontifícia Universidade Católica do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1857293"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_de_Ensino_Superior_do_Amapá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro de Ensino Superior do Amapá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#AppliedPhysics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Physics"/>
+    <rdfs:label xml:lang="en">AppliedPhysics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_São_Salvador">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade São Salvador</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279315"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Nacional_de_Matemática_Pura_e_Aplicada">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Nacional de Matemática Pura e Aplicada</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q904687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Antônio_Meneghetti">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Antônio Meneghetti</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q16492086"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Canoas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Canoas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q194325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Mato_Grosso_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Mato Grosso do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5440478"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Passo_Fundo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Passo Fundo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7161124"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Niterói">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Niterói</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q178725"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_da_Saúde_e_Ecologia_Humana">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade da Saúde e Ecologia Humana</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18477092"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Osório">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Osório</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q983519"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Anápolis">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Anápolis</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q223422"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Medicina_do_Abc">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Medicina do Abc</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_de_Campinas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades de Campinas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279690"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Macaé">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Macaé</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q473250"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Crato">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Crato</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1004897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_de_Roraima">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual de Roraima</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387813"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Acre">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Acre</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387829"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Rio_Grande_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Rio Grande do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387820"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Campina_Grande">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Campina Grande</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q193016"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_São_Bento">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de São Bento</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ArtificialIntelligence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ComputerScience"/>
+    <rdfs:label xml:lang="en">ArtificialIntelligence</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Chemistry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Chemistry</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q482624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_de_Roraima">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal de Roraima</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894378"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_do_Noroeste_Paranaense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade do Noroeste Paranaense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279643"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Integradas_Simonsen">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Integradas Simonsen</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279672"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Lins">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Lins</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1750605"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Administração_de_Empresas_de_São_Paulo">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Administração de Empresas de São Paulo</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10274560"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Santa_Cruz_do_Sul">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Santa Cruz do Sul</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894400"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Estadual_de_Filosofia,_Ciências_e_Letras_de_Paranaguá">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Estadual de Filosofia, Ciências e Letras de Paranaguá</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Dourados">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Dourados</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q651874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Vila_Velha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Vila Velha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q334197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Olga_Mettig">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Olga Mettig</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#ComputerScience">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ExactAndEarthSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">ComputerScience</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ouro_Preto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ouro Preto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q188905"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Brasília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Brasília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2844"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Itapetininga">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Itapetininga</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q942071"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdades_Adamantinenses_Integradas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdades Adamantinenses Integradas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279652"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Bauru">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Bauru</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q241645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ourinhos">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ourinhos</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q985605"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Indaiatuba">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Indaiatuba</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q616650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Artes_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Artes do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Ítalo-brasileiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Ítalo-brasileiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q14932567"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_Estácio_da_Bahia">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário Estácio da Bahia</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18484097"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Gama_Filho">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Gama Filho</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387839"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Umuarama">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Umuarama</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q593948"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_Estadual_de_Educação_Ciências_e_Letras_de_Paranavaí">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade Estadual de Educação Ciências e Letras de Paranavaí</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279251"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_do_Planalto_Catarinense">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade do Planalto Catarinense</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387916"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#SocialAppliedSciences">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeArea"/>
+    <rdfs:label xml:lang="en">SocialAppliedSciences</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Oeste_do_Paraná">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Oeste do Paraná</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7603637"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Porto_Velho">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Porto Velho</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q172512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Rio_Verde">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Rio Verde</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q942064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Escola_de_Governo_Professor_Paulo_Neves_de_Carvalho">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Escola de Governo Professor Paulo Neves de Carvalho</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7248177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Centro_Universitário_de_Belo_Horizonte">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Centro Universitário de Belo Horizonte</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q18370088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_de_Pernambuco">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Alfenas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Alfenas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1755151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Bento_Gonçalves">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Bento Gonçalves</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q548652"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_de_Brasília">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade de Brasília</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1330634"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Barra_Mansa">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Barra Mansa</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q808797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#GeneticsAndMolecularBiology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#BiologicalSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">GeneticsAndMolecularBiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#Physics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#ExactAndEarthSciences"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeSubArea"/>
+    <rdfs:label xml:lang="en">Physics</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1051198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Faculdade_de_Ciências_Sociais_e_Tecnológicas">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Faculdade de Ciências Sociais e Tecnológicas</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10279381"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Ceará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Ceará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q40123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Luterana_do_Brasil">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Luterana do Brasil</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5650092"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Franca">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Franca</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q504587"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#LaborLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#Law"/>
+    <rdfs:label xml:lang="en">LaborLaw</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Federal_de_Educação,_Ciência_e_Tecnologia_Farroupilha">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#TechnologicalInstitute"/>
+    <rdfs:label xml:lang="pt">Instituto Federal de Educação, Ciência e Tecnologia Farroupilha</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Triângulo_Mineiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Triângulo Mineiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387837"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Salto">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#City"/>
+    <rdfs:label xml:lang="pt">Salto</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1994826"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#BiologicalSciences">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/knowarea#KnowledgeArea"/>
+    <rdfs:label xml:lang="en">BiologicalSciences</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Estadual_do_Vale_do_Acaraú">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Estadual do Vale do Acaraú</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7894363"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Instituto_Superior_de_Tecnologia_em_Ciências_da_Computação_do_Rio_de_Janeiro">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Instituto Superior de Tecnologia em Ciências da Computação do Rio de Janeiro</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10302701"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/ies#Universidade_Federal_do_Oeste_do_Pará">
+    <rdf:type rdf:resource="http://purl.org/kinma/ies#University"/>
+    <rdfs:label xml:lang="pt">Universidade Federal do Oeste do Pará</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10387833"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/knowarea#KnowledgeArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
