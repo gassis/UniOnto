@@ -79,6 +79,14 @@ skos:definition rdf:type owl:AnnotationProperty .
                       "temAutor"@pt-br .
 
 
+###  http://purl.org/kinma/base#hasCapital
+:hasCapital rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :isCapitalOf ;
+            rdfs:domain :State ;
+            rdfs:range :City .
+
+
 ###  http://purl.org/kinma/base#hasCityAddress
 :hasCityAddress rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
@@ -138,6 +146,20 @@ skos:definition rdf:type owl:AnnotationProperty .
           rdfs:domain :Occurrence ;
           rdfs:label "envolve"@pt-br ,
                      "involves"@en .
+
+
+###  http://purl.org/kinma/base#isAreaOf
+:isAreaOf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Neighborhood ;
+          rdfs:range :City .
+
+
+###  http://purl.org/kinma/base#isCapitalOf
+:isCapitalOf rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :City ;
+             rdfs:range :State .
 
 
 ###  http://purl.org/kinma/base#isEmployedBy
@@ -271,7 +293,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 ###  http://purl.org/kinma/base#hasBirthDate
 :hasBirthDate rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:range xsd:string ;
+              rdfs:domain :State ;
               rdfs:label "hasBirthDate"@en ,
                          "temDataDeNascimento"@pt-br .
 
@@ -453,6 +475,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/kinma/base#Activity
 :Activity rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
           rdfs:label "Activity"@en .
 
 
@@ -564,6 +587,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/kinma/base#Entity
 :Entity rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing ;
         rdfs:label "Entity"@en .
 
 
@@ -605,6 +629,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/kinma/base#Identity
 :Identity rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
           rdfs:label "Identity"@en .
 
 
@@ -736,6 +761,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/kinma/base#Time_Dimension
 :Time_Dimension rdf:type owl:Class ;
+                rdfs:subClassOf owl:Thing ;
                 rdfs:label "Time Dimension"@en .
 
 

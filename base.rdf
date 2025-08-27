@@ -118,6 +118,17 @@
     
 
 
+    <!-- http://purl.org/kinma/base#hasCapital -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasCapital">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isCapitalOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#State"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#City"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/kinma/base#hasCityAddress -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasCityAddress">
@@ -196,6 +207,26 @@
         <rdfs:domain rdf:resource="http://purl.org/kinma/base#Occurrence"/>
         <rdfs:label xml:lang="pt-br">envolve</rdfs:label>
         <rdfs:label xml:lang="en">involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/kinma/base#isAreaOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isAreaOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Neighborhood"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/kinma/base#isCapitalOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isCapitalOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#City"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#State"/>
     </owl:ObjectProperty>
     
 
@@ -384,7 +415,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasBirthDate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#State"/>
         <rdfs:label xml:lang="en">hasBirthDate</rdfs:label>
         <rdfs:label xml:lang="pt-br">temDataDeNascimento</rdfs:label>
     </owl:DatatypeProperty>
@@ -639,6 +670,7 @@
     <!-- http://purl.org/kinma/base#Activity -->
 
     <owl:Class rdf:about="http://purl.org/kinma/base#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">Activity</rdfs:label>
     </owl:Class>
     
@@ -804,6 +836,7 @@
     <!-- http://purl.org/kinma/base#Entity -->
 
     <owl:Class rdf:about="http://purl.org/kinma/base#Entity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
@@ -866,6 +899,7 @@
     <!-- http://purl.org/kinma/base#Identity -->
 
     <owl:Class rdf:about="http://purl.org/kinma/base#Identity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">Identity</rdfs:label>
     </owl:Class>
     
@@ -1063,6 +1097,7 @@
     <!-- http://purl.org/kinma/base#Time_Dimension -->
 
     <owl:Class rdf:about="http://purl.org/kinma/base#Time_Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">Time Dimension</rdfs:label>
     </owl:Class>
     

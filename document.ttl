@@ -123,7 +123,7 @@ owl:topObjectProperty rdfs:range :Abstract .
                rdf:type owl:FunctionalProperty ;
                rdfs:domain :Publication ;
                rdfs:range xsd:string ;
-               rdfs:label "hasISSNorISBN"@en ,
+               rdfs:label "hasISSN_ISBN"@en ,
                           "temISSNouISBN"@pt-br .
 
 
