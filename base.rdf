@@ -1,1224 +1,769 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.org/kinma/base#"
-     xml:base="http://purl.org/kinma/base"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-    <owl:Ontology rdf:about="http://purl.org/kinma/base"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/kinma/base#affiliatedWith -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#affiliatedWith">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">affiliatedWith</rdfs:label>
-        <rdfs:label xml:lang="pt-br">afiliado</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#belongsTo -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#belongsTo">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Entity"/>
-        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
-        <rdfs:label xml:lang="pt-br">pertence</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#bordersOn -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#bordersOn">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">bordersOn</rdfs:label>
-        <rdfs:label xml:lang="pt-br">fronteiraCom</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#createdBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#createdBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#creatorOf"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:label xml:lang="en">createdBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">criadoPor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#creatorOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#creatorOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:label xml:lang="en">creatorOf</rdfs:label>
-        <rdfs:label xml:lang="pt-br">criadorDe</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#employs -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#employs">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isEmployedBy"/>
-        <rdfs:label xml:lang="en">employs</rdfs:label>
-        <rdfs:label xml:lang="pt-br">emprega</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasAuthor -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasAuthor">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">hasAuthor</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temAutor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasCapital -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasCapital">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isCapitalOf"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#State"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#City"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasCityAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasCityAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#City"/>
-        <rdfs:label xml:lang="en">hasCityAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoDaCidade</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasCountryAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasCountryAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Country"/>
-        <rdfs:label xml:lang="en">hasCountryAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoDePaís</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasHomeAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasHomeAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:label xml:lang="en">hasHomeAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoResidencial</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasNeighborhoodAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasNeighborhoodAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Neighborhood"/>
-        <rdfs:label xml:lang="en">hasNeighborhoodAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoDeVizinhança</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasStateAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasStateAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#State"/>
-        <rdfs:label xml:lang="en">hasStateAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoDeEstado</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasWorkAddress -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#hasWorkAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:label xml:lang="en">hasWorkAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereçoDeTrabalho</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#involves -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#involves">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isInvolved"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="pt-br">envolve</rdfs:label>
-        <rdfs:label xml:lang="en">involves</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isAreaOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isAreaOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Neighborhood"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#City"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isCapitalOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isCapitalOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#City"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#State"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isEmployedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isEmployedBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">isEmployedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éEmpregadoPor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isHeldBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isHeldBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="en">isHeldBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éMantidoPor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isHeldIn -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isHeldIn">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">isHeldIn</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éMantidoEm</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isInvolved -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isInvolved">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="pt-br">estáEnvolvido</rdfs:label>
-        <rdfs:label xml:lang="en">isInvolved</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isLocatedAt -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isLocatedAt">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="pt-br">estáLocalizadoEm</rdfs:label>
-        <rdfs:label xml:lang="en">isLocatedAt</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isManagedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isManagedBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://purl.org/kinma/base#manages"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">isManagedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éGerenciadoPor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isMemberOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isMemberOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">isMemberOf</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éMembroDe</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isOwnerOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isOwnerOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Entity"/>
-        <rdfs:label xml:lang="en">isOwnerOf</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éDonoDe</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isResultOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isResultOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Action"/>
-        <rdfs:label xml:lang="en">isResultOf</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éResultadoDe</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isRunBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isRunBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Action"/>
-        <rdfs:label xml:lang="en">isRunBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éExecutadoPor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isSubsidiaryUnit -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#isSubsidiaryUnit">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">isSubsidiaryUnit</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éUnidadeSubsidiária</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#manages -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#manages">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="pt-br">gerencia</rdfs:label>
-        <rdfs:label xml:lang="en">manages</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#participatesIn -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/kinma/base#participatesIn">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="pt-br">participaDe</rdfs:label>
-        <rdfs:label xml:lang="en">participatesIn</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/kinma/base#hasAcronym -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasAcronym">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasAddress -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasAddress">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Address"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasAddress</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEndereço</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasBirthDate -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasBirthDate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#State"/>
-        <rdfs:label xml:lang="en">hasBirthDate</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temDataDeNascimento</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasCreationDate -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasCreationDate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasCreationDate</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temDataDeCriação</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasDateTimeValue -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasDateTimeValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Date_Time"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:label xml:lang="en">hasDateTimeValue</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temValorDeDataDeHora</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasDescription -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasDescription">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasDescription</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temDescrição</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasDurationValue -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasDurationValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Duration"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasDurationValue</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temValorDeDuração</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasFoundationDate -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasFoundationDate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasFoundationDate</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temDataDeFundação</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasGender -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasGender">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasGender</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temGênero</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasModel -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasModel">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Physical"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasModel</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temModelo</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasName -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasName">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasName</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temNome</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasPersonalEmail -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasPersonalEmail">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasPersonalEmail</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEmailPessoal</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasPersonalPhone -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasPersonalPhone">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasPersonalPhone</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temTelefonePessoal</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasSectorActivity -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasSectorActivity">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasSectorActivity</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temAtividadeSetorial</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasStatus -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasStatus">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasStatus</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temStatus</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasTimeValue -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasTimeValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasTimeValue</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temValorDeTempo</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasTitle -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasTitle">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasTitle</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temTítulo</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasType -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasType">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasType</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temTipo</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasWorkEmail -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasWorkEmail">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasWorkEmail</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temEmailDeTrabalho</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#hasWorkPhone -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#hasWorkPhone">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasWorkPhone</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temTelefoneDeTrabalho</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/kinma/base#isIdentifiedBy -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/kinma/base#isIdentifiedBy">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">isIdentifiedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éIdentificadoPor</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/kinma/base#Abstract -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Abstract">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Entity"/>
-        <owl:disjointWith rdf:resource="http://purl.org/kinma/base#Physical"/>
-        <rdfs:label xml:lang="en">Abstract</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Academic_Structure -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Academic_Structure">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organizational_Unit"/>
-        <rdfs:label xml:lang="en">Academic Structure</rdfs:label>
-        <rdfs:label xml:lang="pt-br">Estrutura Acadêmica</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Action -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Action">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="en">Action</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Activity -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Activity">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Address -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Address">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasAddress"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Business_Structure -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Business_Structure">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organizational_Unit"/>
-        <rdfs:label xml:lang="en">Business Structure</rdfs:label>
-        <rdfs:label xml:lang="pt-br">Estrutura de Negócio</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Calendar_Period -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Calendar_Period">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Interval"/>
-        <rdfs:label xml:lang="en">Calendar Period</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Catastrophe -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Catastrophe">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Generic_Event"/>
-        <rdfs:label xml:lang="en">Catastrophe</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#City -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#City">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">City</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Company -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Company">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <owl:disjointWith rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
-        <owl:disjointWith rdf:resource="http://purl.org/kinma/base#Government"/>
-        <owl:disjointWith rdf:resource="http://purl.org/kinma/base#Ong"/>
-        <rdfs:label xml:lang="en">Company</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Conference -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Conference">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Generic_Event"/>
-        <rdfs:label xml:lang="en">Conference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Country -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Country">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">Country</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Course -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Course">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Work"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Date_Period -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Date_Period">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Interval"/>
-        <rdfs:label xml:lang="en">Date Period</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Date_Time -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Date_Time">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Instant"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasDateTimeValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Date Time</rdfs:label>
-        <skos:definition>time point including a date and a time, optionally including a time zone offset</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Document -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Document">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:label xml:lang="en">Document</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Duration -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Duration">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Interval"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasDurationValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Duration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Educational_Institution -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Educational_Institution">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">Educational Institution</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Employee -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Employee">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:label xml:lang="en">Employee</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Entity -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Entity">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Equipment -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Equipment">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Physical"/>
-        <rdfs:label xml:lang="en">Equipment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#File -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#File">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:label xml:lang="en">File</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Generic_Event -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Generic_Event">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Occurrence"/>
-        <rdfs:label xml:lang="en">Generic Event</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Geographic_Location -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Geographic_Location">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Geographic Location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Government -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Government">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">Government</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Graduate_Student -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Graduate_Student">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Student"/>
-        <rdfs:label xml:lang="en">Graduate Student</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Identity -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Identity">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Identity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Industry -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Industry">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Company"/>
-        <rdfs:label xml:lang="en">Industry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Meeting -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Meeting">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Generic_Event"/>
-        <rdfs:label xml:lang="en">Meeting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Neighborhood -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Neighborhood">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">Neighborhood</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Networking -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Networking">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Activity"/>
-        <rdfs:label xml:lang="en">Networking</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Occurrence -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Occurrence">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Occurrence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Ong -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Ong">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">Ong</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Organization -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Organization">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:label xml:lang="en">Organization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Organizational_Unit -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Organizational_Unit">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:label xml:lang="en">Organizational Unit</rdfs:label>
-        <rdfs:label xml:lang="pt-br">Unidade Organizacional</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Person -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Person">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:label xml:lang="en">Person</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Physical -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Physical">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Entity"/>
-        <rdfs:label xml:lang="en">Physical</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Postgraduate_Student -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Postgraduate_Student">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Student"/>
-        <rdfs:label xml:lang="en">Postgraduate Student</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Product -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Product">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Physical"/>
-        <rdfs:label xml:lang="en">Product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Purchase -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Purchase">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Action"/>
-        <rdfs:label xml:lang="en">Purchase</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Recreation -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Recreation">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Activity"/>
-        <rdfs:label xml:lang="en">Recreation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Registration -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Registration">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Action"/>
-        <rdfs:label xml:lang="en">Registration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Research -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Research">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Work"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Sale -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Sale">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Action"/>
-        <rdfs:label xml:lang="en">Sale</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Service -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Service">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Company"/>
-        <rdfs:label xml:lang="en">Service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#State -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#State">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Geographic_Location"/>
-        <rdfs:label xml:lang="en">State</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Student -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Student">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:label xml:lang="en">Student</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Technological_Institute -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Technological_Institute">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
-        <rdfs:label xml:lang="en">Technological Institute</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Time_Dimension -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Time_Dimension">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label xml:lang="en">Time Dimension</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Time_Instant -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Time_Instant">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Dimension"/>
-        <rdfs:label xml:lang="en">Time Instant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Time_Interval -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Time_Interval">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Dimension"/>
-        <rdfs:label xml:lang="en">Time Interval</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Time_of_Day -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Time_of_Day">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Time_Instant"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasTimeValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Time of Day</rdfs:label>
-        <skos:definition>explicit time, according to a clock</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Trade -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Trade">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Company"/>
-        <rdfs:label xml:lang="en">Trade</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Transaction -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Transaction">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Abstract"/>
-        <rdfs:label xml:lang="en">Transaction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Trip -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Trip">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Generic_Event"/>
-        <rdfs:label xml:lang="en">Trip</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#University -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#University">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
-        <rdfs:label xml:lang="en">University</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Vehicle -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Vehicle">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Physical"/>
-        <rdfs:label xml:lang="en">Vehicle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Vocational_Student -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Vocational_Student">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Student"/>
-        <rdfs:label xml:lang="en">Vocational Student</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/kinma/base#Work -->
-
-    <owl:Class rdf:about="http://purl.org/kinma/base#Work">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Activity"/>
-        <rdfs:label xml:lang="en">Work</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.org/kinma/base#Educational_Institution"/>
-            <rdf:Description rdf:about="http://purl.org/kinma/base#Government"/>
-            <rdf:Description rdf:about="http://purl.org/kinma/base#Ong"/>
-        </owl:members>
-    </rdf:Description>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#organizational_unit">
+    <rdfs:label xml:lang="pt-br">Unidade Organizacional</rdfs:label>
+    <rdfs:label xml:lang="en">Organizational Unit</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isOwnerOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#entity"/>
+    <rdfs:label xml:lang="en">isOwnerOf</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eDonoDe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3c52d2b7ff644e85bb09a50cec690f33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N8d53bda979b844c8ba2434fd56212b4c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasSectorActivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasSectorActivity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#time_instant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Tempo instantâneo</rdfs:label>
+    <rdfs:label xml:lang="en">Time Instant</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#time_of_day">
+    <rdfs:label xml:lang="pt-br">Hora do dia</rdfs:label>
+    <rdfs:label xml:lang="en">Time of Day</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="Nc156c3025f8342e2b75bf0fdedebc999"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_instant"/>
+    <skos:definition>explicit time, according to a clock</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isInvolved">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:label xml:lang="en">isInvolved</rdfs:label>
+    <rdfs:label xml:lang="pt-br">estaEnvolvido</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N705f9c84598f4636973b200ecffc0a8e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasDurationValue"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#state">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">State</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Estado</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#educational_institution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Instituição educacional</rdfs:label>
+    <rdfs:label xml:lang="en">Educational Institution</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#country">
+    <rdfs:label xml:lang="en">Country</rdfs:label>
+    <rdfs:label xml:lang="pt-br">País</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#industry">
+    <rdfs:label xml:lang="en">Industry</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Indústria</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasStateAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#state"/>
+    <rdfs:label xml:lang="en">hasStateAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoDeEstado</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#purchase">
+    <rdfs:label xml:lang="pt-br">Comprar</rdfs:label>
+    <rdfs:label xml:lang="en">Purchase</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#action">
+    <rdfs:label xml:lang="pt-br">Ação</rdfs:label>
+    <rdfs:label xml:lang="en">Action</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#occurrence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#city">
+    <rdfs:label xml:lang="pt-br">Cidade</rdfs:label>
+    <rdfs:label xml:lang="en">City</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#postgraduate_student">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#student"/>
+    <rdfs:label xml:lang="pt-br">Estudante de pós -graduação</rdfs:label>
+    <rdfs:label xml:lang="en">Postgraduate Student</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasCreationDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#abstract"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasCreationDate</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temDataDeCriacao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasDurationValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#duration"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasDurationValue</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temValorDeDuracao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasBirthDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#state"/>
+    <rdfs:label xml:lang="en">hasBirthDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasCountryAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#country"/>
+    <rdfs:label xml:lang="en">hasCountryAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoDePais</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#networking">
+    <rdfs:label xml:lang="en">Networking</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Networking</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasDescription</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temDescricao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasPersonalPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasPersonalPhone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#geographic_location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Geographic Location</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Localização geográfica</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isIdentifiedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#identity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">isIdentifiedBy</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eIdentificadoPor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isManagedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/kinma/base#manages"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:label xml:lang="en">isManagedBy</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eGerenciadoPor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#catastrophe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Catastrophe</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Catástrofe</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#generic_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#activity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Atividade</rdfs:label>
+    <rdfs:label xml:lang="en">Activity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#vehicle">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#physical"/>
+    <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Veículo</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#company">
+    <rdfs:label xml:lang="en">Company</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Empresa</rdfs:label>
+    <owl:disjointWith rdf:resource="http://purl.org/kinma/base#ong"/>
+    <owl:disjointWith rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+    <owl:disjointWith rdf:resource="http://purl.org/kinma/base#government"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#bordersOn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+    <rdfs:label xml:lang="en">bordersOn</rdfs:label>
+    <rdfs:label xml:lang="pt-br">fronteiras</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#date_period">
+    <rdfs:label xml:lang="pt-br">Período de data</rdfs:label>
+    <rdfs:label xml:lang="en">Date Period</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_interval"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#time_dimension">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label xml:lang="pt-br">Dimensão do tempo</rdfs:label>
+    <rdfs:label xml:lang="en">Time Dimension</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#service">
+    <rdfs:label xml:lang="en">Service</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Serviço</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasFoundationDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasFoundationDate</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temDataDeFundacao</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#meeting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Meeting</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Reunião</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#generic_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isInvolved"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:label xml:lang="en">involves</rdfs:label>
+    <rdfs:label xml:lang="pt-br">envolve</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasTitle</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temTitulo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isHeldBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:label xml:lang="en">isHeldBy</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eMantidoPor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isResultOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#action"/>
+    <rdfs:label xml:lang="en">isResultOf</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eResultadoDe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#manages">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:label xml:lang="en">manages</rdfs:label>
+    <rdfs:label xml:lang="pt-br">gerencia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#occurrence">
+    <rdfs:label xml:lang="pt-br">Ocorrência</rdfs:label>
+    <rdfs:label xml:lang="en">Occurrence</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#physical">
+    <rdfs:label xml:lang="en">Physical</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Físico</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEndereco</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isRunBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#action"/>
+    <rdfs:label xml:lang="en">isRunBy</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eExecutadoPor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isAreaOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#neighborhood"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#city"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#registration">
+    <rdfs:label xml:lang="pt-br">Registro</rdfs:label>
+    <rdfs:label xml:lang="en">Registration</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#action"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#vocational_student">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#student"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Vocational Student</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Estudante vocacional</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasCityAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#city"/>
+    <rdfs:label xml:lang="en">hasCityAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoDaCidade</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#neighborhood">
+    <rdfs:label xml:lang="en">Neighborhood</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Vizinhança</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d39e8d80f8a475a89b07cf2ae6c54ef">
+    <rdf:first rdf:resource="http://purl.org/kinma/base#ong"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#trade">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Troca</rdfs:label>
+    <rdfs:label xml:lang="en">Trade</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#student">
+    <rdfs:label xml:lang="en">Student</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Estudante</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#government">
+    <rdfs:label xml:lang="pt-br">Governo</rdfs:label>
+    <rdfs:label xml:lang="en">Government</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasGender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasGender</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temGenero</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#createdBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/kinma/base#creatorOf"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#abstract"/>
+    <rdfs:label xml:lang="en">createdBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#date_time">
+    <rdfs:label xml:lang="en">Date Time</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Data de data</rdfs:label>
+    <skos:definition>time point including a date and a time, optionally including a time zone offset</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nb339a8eb15a243d6a30387e67b2faae4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_instant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#recreation">
+    <rdfs:label xml:lang="en">Recreation</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Recreação</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isMemberOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:label xml:lang="en">isMemberOf</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eMembroDe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#trip">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#generic_event"/>
+    <rdfs:label xml:lang="en">Trip</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Viagem</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#transaction">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#abstract"/>
+    <rdfs:label xml:lang="pt-br">Transação</rdfs:label>
+    <rdfs:label xml:lang="en">Transaction</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc156c3025f8342e2b75bf0fdedebc999">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasTimeValue"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#address">
+    <rdfs:subClassOf rdf:nodeID="N8a2b0976220548aea7d54f68e25c74ac"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+    <rdfs:label xml:lang="en">Address</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Endereço</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasWorkPhone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasWorkPhone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasCapital">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isCapitalOf"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#state"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#city"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#graduate_student">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#student"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Estudante de pós -graduação</rdfs:label>
+    <rdfs:label xml:lang="en">Graduate Student</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#generic_event">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:label xml:lang="pt-br">Evento genérico</rdfs:label>
+    <rdfs:label xml:lang="en">Generic Event</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#participatesIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:label xml:lang="en">participatesIn</rdfs:label>
+    <rdfs:label xml:lang="pt-br">participaDe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#business_structure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Estrutura de Negócio</rdfs:label>
+    <rdfs:label xml:lang="en">Business Structure</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Estrutura de negócios</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organizational_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasTimeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasTimeValue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isSubsidiaryUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:label xml:lang="en">isSubsidiaryUnit</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eUnidadeSubsidiaria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasType</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#equipment">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#physical"/>
+    <rdfs:label xml:lang="pt-br">Equipamento</rdfs:label>
+    <rdfs:label xml:lang="en">Equipment</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#abstract">
+    <rdfs:label xml:lang="en">Abstract</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Resumo</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://purl.org/kinma/base#physical"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#conference">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#generic_event"/>
+    <rdfs:label xml:lang="en">Conference</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Conferência</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#technological_institute">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Technological Institute</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Instituto Tecnológico</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a2b0976220548aea7d54f68e25c74ac">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasAddress"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isHeldIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#occurrence"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+    <rdfs:label xml:lang="en">isHeldIn</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eMantidoEm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasStatus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#product">
+    <rdfs:label xml:lang="pt-br">Produto</rdfs:label>
+    <rdfs:label xml:lang="en">Product</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#physical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isCapitalOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#city"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasHomeAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:label xml:lang="en">hasHomeAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoResidencial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isLocatedAt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#geographic_location"/>
+    <rdfs:label xml:lang="en">isLocatedAt</rdfs:label>
+    <rdfs:label xml:lang="pt-br">estaLocalizadoEm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasDateTimeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#date_time"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label xml:lang="en">hasDateTimeValue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#organization">
+    <rdfs:label xml:lang="pt-br">Organização</rdfs:label>
+    <rdfs:label xml:lang="en">Organization</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#employee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#person"/>
+    <rdfs:label xml:lang="pt-br">Funcionário</rdfs:label>
+    <rdfs:label xml:lang="en">Employee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#sale">
+    <rdfs:label xml:lang="en">Sale</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Oferta</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#action"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8d53bda979b844c8ba2434fd56212b4c">
+    <rdf:first rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+    <rdf:rest rdf:nodeID="N9f4f2142117348fc9fc0e01b69df34ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasWorkEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasWorkEmail</rdfs:label>
+    <rdfs:label xml:lang="pt-br">tem-mailDeTrabalho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#university">
+    <rdfs:label xml:lang="pt-br">Universidade</rdfs:label>
+    <rdfs:label xml:lang="en">University</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#file">
+    <rdfs:label xml:lang="en">File</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Arquivo</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#abstract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#employs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/kinma/base#isEmployedBy"/>
+    <rdfs:label xml:lang="en">employs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#document">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Document</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Documento</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#abstract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasAcronym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#entity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Entidade</rdfs:label>
+    <rdfs:label xml:lang="en">Entity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#duration">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_interval"/>
+    <rdfs:subClassOf rdf:nodeID="N705f9c84598f4636973b200ecffc0a8e"/>
+    <rdfs:label xml:lang="en">Duration</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Duração</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#isEmployedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label xml:lang="en">isEmployedBy</rdfs:label>
+    <rdfs:label xml:lang="pt-br">eEmpregadoPor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#work">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#activity"/>
+    <rdfs:label xml:lang="en">Work</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Trabalhar</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasAuthor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:label xml:lang="en">hasAuthor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#identity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Identity</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Identidade</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#course">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#work"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#calendar_period">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_interval"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt-br">Período calendário</rdfs:label>
+    <rdfs:label xml:lang="en">Calendar Period</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#time_interval">
+    <rdfs:label xml:lang="pt-br">Intervalo de tempo</rdfs:label>
+    <rdfs:label xml:lang="en">Time Interval</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#time_dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasNeighborhoodAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#neighborhood"/>
+    <rdfs:label xml:lang="en">hasNeighborhoodAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoDeVizinhanca</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#physical"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasModel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#person">
+    <rdfs:label xml:lang="pt-br">Pessoa</rdfs:label>
+    <rdfs:label xml:lang="en">Person</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#ong">
+    <rdfs:label xml:lang="pt-br">Ong</rdfs:label>
+    <rdfs:label xml:lang="en">Ong</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasPersonalEmail">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">hasPersonalEmail</rdfs:label>
+    <rdfs:label xml:lang="pt-br">tem-mailPessoal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#academic_structure">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#organizational_unit"/>
+    <rdfs:label xml:lang="pt-br">Estrutura Acadêmica</rdfs:label>
+    <rdfs:label xml:lang="en">Academic Structure</rdfs:label>
+    <rdfs:label xml:lang="pt-br">Estrutura acadêmica</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#hasWorkAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#address"/>
+    <rdfs:label xml:lang="en">hasWorkAddress</rdfs:label>
+    <rdfs:label xml:lang="pt-br">temEnderecoDeTrabalho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#creatorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#abstract"/>
+    <rdfs:label xml:lang="en">creatorOf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#affiliatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#identity"/>
+    <rdfs:range rdf:resource="http://purl.org/kinma/base#organization"/>
+    <rdfs:label xml:lang="en">affiliatedWith</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#belongsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/kinma/base#entity"/>
+    <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f4f2142117348fc9fc0e01b69df34ad">
+    <rdf:first rdf:resource="http://purl.org/kinma/base#government"/>
+    <rdf:rest rdf:nodeID="N7d39e8d80f8a475a89b07cf2ae6c54ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb339a8eb15a243d6a30387e67b2faae4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/kinma/base#hasDateTimeValue"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/kinma/base#research">
+    <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#work"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-

@@ -24,126 +24,120 @@ skos:definition rdf:type owl:AnnotationProperty .
 ###  http://purl.org/kinma/base#affiliatedWith
 :affiliatedWith rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:domain :Identity ;
-                rdfs:range :Organization ;
-                rdfs:label "affiliatedWith"@en ,
-                           "afiliado"@pt-br .
+                rdfs:domain :identity ;
+                rdfs:range :organization ;
+                rdfs:label "affiliatedWith"@en .
 
 
 ###  http://purl.org/kinma/base#belongsTo
 :belongsTo rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :Entity ;
-           rdfs:label "belongsTo"@en ,
-                      "pertence"@pt-br .
+           rdfs:domain :entity ;
+           rdfs:label "belongsTo"@en .
 
 
 ###  http://purl.org/kinma/base#bordersOn
 :bordersOn rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :Geographic_Location ;
-           rdfs:range :Geographic_Location ;
+           rdfs:domain :geographic_location ;
+           rdfs:range :geographic_location ;
            rdfs:label "bordersOn"@en ,
-                      "fronteiraCom"@pt-br .
+                      "fronteiras"@pt-br .
 
 
 ###  http://purl.org/kinma/base#createdBy
 :createdBy rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            owl:inverseOf :creatorOf ;
-           rdfs:domain :Abstract ;
-           rdfs:label "createdBy"@en ,
-                      "criadoPor"@pt-br .
+           rdfs:domain :abstract ;
+           rdfs:label "createdBy"@en .
 
 
 ###  http://purl.org/kinma/base#creatorOf
 :creatorOf rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:range :Abstract ;
-           rdfs:label "creatorOf"@en ,
-                      "criadorDe"@pt-br .
+           rdfs:range :abstract ;
+           rdfs:label "creatorOf"@en .
 
 
 ###  http://purl.org/kinma/base#employs
 :employs rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
          owl:inverseOf :isEmployedBy ;
-         rdfs:label "employs"@en ,
-                    "emprega"@pt-br .
+         rdfs:label "employs"@en .
 
 
 ###  http://purl.org/kinma/base#hasAuthor
 :hasAuthor rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:label "hasAuthor"@en ,
-                      "temAutor"@pt-br .
+           rdfs:label "hasAuthor"@en .
 
 
 ###  http://purl.org/kinma/base#hasCapital
 :hasCapital rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             owl:inverseOf :isCapitalOf ;
-            rdfs:domain :State ;
-            rdfs:range :City .
+            rdfs:domain :state ;
+            rdfs:range :city .
 
 
 ###  http://purl.org/kinma/base#hasCityAddress
 :hasCityAddress rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:domain :Address ;
-                rdfs:range :City ;
+                rdfs:domain :address ;
+                rdfs:range :city ;
                 rdfs:label "hasCityAddress"@en ,
-                           "temEndereçoDaCidade"@pt-br .
+                           "temEnderecoDaCidade"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasCountryAddress
 :hasCountryAddress rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
-                   rdfs:domain :Address ;
-                   rdfs:range :Country ;
+                   rdfs:domain :address ;
+                   rdfs:range :country ;
                    rdfs:label "hasCountryAddress"@en ,
-                              "temEndereçoDePaís"@pt-br .
+                              "temEnderecoDePais"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasHomeAddress
 :hasHomeAddress rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:range :Address ;
+                rdfs:range :address ;
                 rdfs:label "hasHomeAddress"@en ,
-                           "temEndereçoResidencial"@pt-br .
+                           "temEnderecoResidencial"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasNeighborhoodAddress
 :hasNeighborhoodAddress rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf owl:topObjectProperty ;
-                        rdfs:domain :Address ;
-                        rdfs:range :Neighborhood ;
+                        rdfs:domain :address ;
+                        rdfs:range :neighborhood ;
                         rdfs:label "hasNeighborhoodAddress"@en ,
-                                   "temEndereçoDeVizinhança"@pt-br .
+                                   "temEnderecoDeVizinhanca"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasStateAddress
 :hasStateAddress rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
-                 rdfs:domain :Address ;
-                 rdfs:range :State ;
+                 rdfs:domain :address ;
+                 rdfs:range :state ;
                  rdfs:label "hasStateAddress"@en ,
-                            "temEndereçoDeEstado"@pt-br .
+                            "temEnderecoDeEstado"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasWorkAddress
 :hasWorkAddress rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:range :Address ;
+                rdfs:range :address ;
                 rdfs:label "hasWorkAddress"@en ,
-                           "temEndereçoDeTrabalho"@pt-br .
+                           "temEnderecoDeTrabalho"@pt-br .
 
 
 ###  http://purl.org/kinma/base#involves
 :involves rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           owl:inverseOf :isInvolved ;
-          rdfs:domain :Occurrence ;
+          rdfs:domain :occurrence ;
           rdfs:label "envolve"@pt-br ,
                      "involves"@en .
 
@@ -151,46 +145,46 @@ skos:definition rdf:type owl:AnnotationProperty .
 ###  http://purl.org/kinma/base#isAreaOf
 :isAreaOf rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :Neighborhood ;
-          rdfs:range :City .
+          rdfs:domain :neighborhood ;
+          rdfs:range :city .
 
 
 ###  http://purl.org/kinma/base#isCapitalOf
 :isCapitalOf rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :City ;
-             rdfs:range :State .
+             rdfs:domain :city ;
+             rdfs:range :state .
 
 
 ###  http://purl.org/kinma/base#isEmployedBy
 :isEmployedBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:label "isEmployedBy"@en ,
-                         "éEmpregadoPor"@pt-br .
+              rdfs:label "eEmpregadoPor"@pt-br ,
+                         "isEmployedBy"@en .
 
 
 ###  http://purl.org/kinma/base#isHeldBy
 :isHeldBy rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :Occurrence ;
-          rdfs:label "isHeldBy"@en ,
-                     "éMantidoPor"@pt-br .
+          rdfs:domain :occurrence ;
+          rdfs:label "eMantidoPor"@pt-br ,
+                     "isHeldBy"@en .
 
 
 ###  http://purl.org/kinma/base#isHeldIn
 :isHeldIn rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :Occurrence ;
-          rdfs:range :Geographic_Location ;
-          rdfs:label "isHeldIn"@en ,
-                     "éMantidoEm"@pt-br .
+          rdfs:domain :occurrence ;
+          rdfs:range :geographic_location ;
+          rdfs:label "eMantidoEm"@pt-br ,
+                     "isHeldIn"@en .
 
 
 ###  http://purl.org/kinma/base#isInvolved
 :isInvolved rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:range :Occurrence ;
-            rdfs:label "estáEnvolvido"@pt-br ,
+            rdfs:range :occurrence ;
+            rdfs:label "estaEnvolvido"@pt-br ,
                        "isInvolved"@en .
 
 
@@ -198,8 +192,8 @@ skos:definition rdf:type owl:AnnotationProperty .
 :isLocatedAt rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:TransitiveProperty ;
-             rdfs:range :Geographic_Location ;
-             rdfs:label "estáLocalizadoEm"@pt-br ,
+             rdfs:range :geographic_location ;
+             rdfs:label "estaLocalizadoEm"@pt-br ,
                         "isLocatedAt"@en .
 
 
@@ -207,57 +201,57 @@ skos:definition rdf:type owl:AnnotationProperty .
 :isManagedBy rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :manages ;
-             rdfs:domain :Organization ;
-             rdfs:label "isManagedBy"@en ,
-                        "éGerenciadoPor"@pt-br .
+             rdfs:domain :organization ;
+             rdfs:label "eGerenciadoPor"@pt-br ,
+                        "isManagedBy"@en .
 
 
 ###  http://purl.org/kinma/base#isMemberOf
 :isMemberOf rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:range :Organization ;
-            rdfs:label "isMemberOf"@en ,
-                       "éMembroDe"@pt-br .
+            rdfs:range :organization ;
+            rdfs:label "eMembroDe"@pt-br ,
+                       "isMemberOf"@en .
 
 
 ###  http://purl.org/kinma/base#isOwnerOf
 :isOwnerOf rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:range :Entity ;
-           rdfs:label "isOwnerOf"@en ,
-                      "éDonoDe"@pt-br .
+           rdfs:range :entity ;
+           rdfs:label "eDonoDe"@pt-br ,
+                      "isOwnerOf"@en .
 
 
 ###  http://purl.org/kinma/base#isResultOf
 :isResultOf rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:range :Action ;
-            rdfs:label "isResultOf"@en ,
-                       "éResultadoDe"@pt-br .
+            rdfs:range :action ;
+            rdfs:label "eResultadoDe"@pt-br ,
+                       "isResultOf"@en .
 
 
 ###  http://purl.org/kinma/base#isRunBy
 :isRunBy rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
-         rdfs:domain :Action ;
-         rdfs:label "isRunBy"@en ,
-                    "éExecutadoPor"@pt-br .
+         rdfs:domain :action ;
+         rdfs:label "eExecutadoPor"@pt-br ,
+                    "isRunBy"@en .
 
 
 ###  http://purl.org/kinma/base#isSubsidiaryUnit
 :isSubsidiaryUnit rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
                   rdf:type owl:FunctionalProperty ;
-                  rdfs:domain :Organization ;
-                  rdfs:range :Organization ;
-                  rdfs:label "isSubsidiaryUnit"@en ,
-                             "éUnidadeSubsidiária"@pt-br .
+                  rdfs:domain :organization ;
+                  rdfs:range :organization ;
+                  rdfs:label "eUnidadeSubsidiaria"@pt-br ,
+                             "isSubsidiaryUnit"@en .
 
 
 ###  http://purl.org/kinma/base#manages
 :manages rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
-         rdfs:range :Organization ;
+         rdfs:range :organization ;
          rdfs:label "gerencia"@pt-br ,
                     "manages"@en .
 
@@ -265,7 +259,7 @@ skos:definition rdf:type owl:AnnotationProperty .
 ###  http://purl.org/kinma/base#participatesIn
 :participatesIn rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
-                rdfs:range :Occurrence ;
+                rdfs:range :occurrence ;
                 rdfs:label "participaDe"@pt-br ,
                            "participatesIn"@en .
 
@@ -277,43 +271,41 @@ skos:definition rdf:type owl:AnnotationProperty .
 ###  http://purl.org/kinma/base#hasAcronym
 :hasAcronym rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain :Organization ;
+            rdfs:domain :organization ;
             rdfs:range xsd:string .
 
 
 ###  http://purl.org/kinma/base#hasAddress
 :hasAddress rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain :Address ;
+            rdfs:domain :address ;
             rdfs:range xsd:string ;
             rdfs:label "hasAddress"@en ,
-                       "temEndereço"@pt-br .
+                       "temEndereco"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasBirthDate
 :hasBirthDate rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:domain :State ;
-              rdfs:label "hasBirthDate"@en ,
-                         "temDataDeNascimento"@pt-br .
+              rdfs:domain :state ;
+              rdfs:label "hasBirthDate"@en .
 
 
 ###  http://purl.org/kinma/base#hasCreationDate
 :hasCreationDate rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty ;
-                 rdfs:domain :Abstract ;
+                 rdfs:domain :abstract ;
                  rdfs:range xsd:string ;
                  rdfs:label "hasCreationDate"@en ,
-                            "temDataDeCriação"@pt-br .
+                            "temDataDeCriacao"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasDateTimeValue
 :hasDateTimeValue rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
-                  rdfs:domain :Date_Time ;
+                  rdfs:domain :date_time ;
                   rdfs:range xsd:dateTime ;
-                  rdfs:label "hasDateTimeValue"@en ,
-                             "temValorDeDataDeHora"@pt-br .
+                  rdfs:label "hasDateTimeValue"@en .
 
 
 ###  http://purl.org/kinma/base#hasDescription
@@ -321,25 +313,25 @@ skos:definition rdf:type owl:AnnotationProperty .
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdfs:range xsd:string ;
                 rdfs:label "hasDescription"@en ,
-                           "temDescrição"@pt-br .
+                           "temDescricao"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasDurationValue
 :hasDurationValue rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
-                  rdfs:domain :Duration ;
+                  rdfs:domain :duration ;
                   rdfs:range xsd:string ;
                   rdfs:label "hasDurationValue"@en ,
-                             "temValorDeDuração"@pt-br .
+                             "temValorDeDuracao"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasFoundationDate
 :hasFoundationDate rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
-                   rdfs:domain :Organization ;
+                   rdfs:domain :organization ;
                    rdfs:range xsd:string ;
                    rdfs:label "hasFoundationDate"@en ,
-                              "temDataDeFundação"@pt-br .
+                              "temDataDeFundacao"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasGender
@@ -347,24 +339,22 @@ skos:definition rdf:type owl:AnnotationProperty .
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:range xsd:string ;
            rdfs:label "hasGender"@en ,
-                      "temGênero"@pt-br .
+                      "temGenero"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasModel
 :hasModel rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
-          rdfs:domain :Physical ;
+          rdfs:domain :physical ;
           rdfs:range xsd:string ;
-          rdfs:label "hasModel"@en ,
-                     "temModelo"@pt-br .
+          rdfs:label "hasModel"@en .
 
 
 ###  http://purl.org/kinma/base#hasName
 :hasName rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:range xsd:string ;
-         rdfs:label "hasName"@en ,
-                    "temNome"@pt-br .
+         rdfs:label "hasName"@en .
 
 
 ###  http://purl.org/kinma/base#hasPersonalEmail
@@ -372,40 +362,36 @@ skos:definition rdf:type owl:AnnotationProperty .
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:range xsd:string ;
                   rdfs:label "hasPersonalEmail"@en ,
-                             "temEmailPessoal"@pt-br .
+                             "tem-mailPessoal"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasPersonalPhone
 :hasPersonalPhone rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:range xsd:string ;
-                  rdfs:label "hasPersonalPhone"@en ,
-                             "temTelefonePessoal"@pt-br .
+                  rdfs:label "hasPersonalPhone"@en .
 
 
 ###  http://purl.org/kinma/base#hasSectorActivity
 :hasSectorActivity rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
-                   rdfs:domain :Organization ;
+                   rdfs:domain :organization ;
                    rdfs:range xsd:string ;
-                   rdfs:label "hasSectorActivity"@en ,
-                              "temAtividadeSetorial"@pt-br .
+                   rdfs:label "hasSectorActivity"@en .
 
 
 ###  http://purl.org/kinma/base#hasStatus
 :hasStatus rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:range xsd:string ;
-           rdfs:label "hasStatus"@en ,
-                      "temStatus"@pt-br .
+           rdfs:label "hasStatus"@en .
 
 
 ###  http://purl.org/kinma/base#hasTimeValue
 :hasTimeValue rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:range xsd:string ;
-              rdfs:label "hasTimeValue"@en ,
-                         "temValorDeTempo"@pt-br .
+              rdfs:label "hasTimeValue"@en .
 
 
 ###  http://purl.org/kinma/base#hasTitle
@@ -413,15 +399,14 @@ skos:definition rdf:type owl:AnnotationProperty .
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:range xsd:string ;
           rdfs:label "hasTitle"@en ,
-                     "temTítulo"@pt-br .
+                     "temTitulo"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasType
 :hasType rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:range xsd:string ;
-         rdfs:label "hasType"@en ,
-                    "temTipo"@pt-br .
+         rdfs:label "hasType"@en .
 
 
 ###  http://purl.org/kinma/base#hasWorkEmail
@@ -429,405 +414,460 @@ skos:definition rdf:type owl:AnnotationProperty .
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:range xsd:string ;
               rdfs:label "hasWorkEmail"@en ,
-                         "temEmailDeTrabalho"@pt-br .
+                         "tem-mailDeTrabalho"@pt-br .
 
 
 ###  http://purl.org/kinma/base#hasWorkPhone
 :hasWorkPhone rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:range xsd:string ;
-              rdfs:label "hasWorkPhone"@en ,
-                         "temTelefoneDeTrabalho"@pt-br .
+              rdfs:label "hasWorkPhone"@en .
 
 
 ###  http://purl.org/kinma/base#isIdentifiedBy
 :isIdentifiedBy rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain :Identity ;
+                rdfs:domain :identity ;
                 rdfs:range xsd:string ;
-                rdfs:label "isIdentifiedBy"@en ,
-                           "éIdentificadoPor"@pt-br .
+                rdfs:label "eIdentificadoPor"@pt-br ,
+                           "isIdentifiedBy"@en .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://purl.org/kinma/base#Abstract
-:Abstract rdf:type owl:Class ;
-          rdfs:subClassOf :Entity ;
-          owl:disjointWith :Physical ;
-          rdfs:label "Abstract"@en .
+###  http://purl.org/kinma/base#abstract
+:abstract rdf:type owl:Class ;
+          rdfs:subClassOf :entity ;
+          owl:disjointWith :physical ;
+          rdfs:label "Abstract"@en ,
+                     "Resumo"@pt-br .
 
 
-###  http://purl.org/kinma/base#Academic_Structure
-:Academic_Structure rdf:type owl:Class ;
-                    rdfs:subClassOf :Organizational_Unit ;
+###  http://purl.org/kinma/base#academic_structure
+:academic_structure rdf:type owl:Class ;
+                    rdfs:subClassOf :organizational_unit ;
                     rdfs:label "Academic Structure"@en ,
-                               "Estrutura Acadêmica"@pt-br .
+                               "Estrutura Acadêmica"@pt-br ,
+                               "Estrutura acadêmica"@pt-br .
 
 
-###  http://purl.org/kinma/base#Action
-:Action rdf:type owl:Class ;
-        rdfs:subClassOf :Occurrence ;
-        rdfs:label "Action"@en .
+###  http://purl.org/kinma/base#action
+:action rdf:type owl:Class ;
+        rdfs:subClassOf :occurrence ;
+        rdfs:label "Action"@en ,
+                   "Ação"@pt-br .
 
 
-###  http://purl.org/kinma/base#Activity
-:Activity rdf:type owl:Class ;
+###  http://purl.org/kinma/base#activity
+:activity rdf:type owl:Class ;
           rdfs:subClassOf owl:Thing ;
-          rdfs:label "Activity"@en .
+          rdfs:label "Activity"@en ,
+                     "Atividade"@pt-br .
 
 
-###  http://purl.org/kinma/base#Address
-:Address rdf:type owl:Class ;
-         rdfs:subClassOf :Geographic_Location ,
+###  http://purl.org/kinma/base#address
+:address rdf:type owl:Class ;
+         rdfs:subClassOf :geographic_location ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :hasAddress ;
                            owl:someValuesFrom xsd:string
                          ] ;
-         rdfs:label "Address"@en .
+         rdfs:label "Address"@en ,
+                    "Endereço"@pt-br .
 
 
-###  http://purl.org/kinma/base#Business_Structure
-:Business_Structure rdf:type owl:Class ;
-                    rdfs:subClassOf :Organizational_Unit ;
+###  http://purl.org/kinma/base#business_structure
+:business_structure rdf:type owl:Class ;
+                    rdfs:subClassOf :organizational_unit ;
                     rdfs:label "Business Structure"@en ,
-                               "Estrutura de Negócio"@pt-br .
+                               "Estrutura de Negócio"@pt-br ,
+                               "Estrutura de negócios"@pt-br .
 
 
-###  http://purl.org/kinma/base#Calendar_Period
-:Calendar_Period rdf:type owl:Class ;
-                 rdfs:subClassOf :Time_Interval ;
-                 rdfs:label "Calendar Period"@en .
+###  http://purl.org/kinma/base#calendar_period
+:calendar_period rdf:type owl:Class ;
+                 rdfs:subClassOf :time_interval ;
+                 rdfs:label "Calendar Period"@en ,
+                            "Período calendário"@pt-br .
 
 
-###  http://purl.org/kinma/base#Catastrophe
-:Catastrophe rdf:type owl:Class ;
-             rdfs:subClassOf :Generic_Event ;
-             rdfs:label "Catastrophe"@en .
+###  http://purl.org/kinma/base#catastrophe
+:catastrophe rdf:type owl:Class ;
+             rdfs:subClassOf :generic_event ;
+             rdfs:label "Catastrophe"@en ,
+                        "Catástrofe"@pt-br .
 
 
-###  http://purl.org/kinma/base#City
-:City rdf:type owl:Class ;
-      rdfs:subClassOf :Geographic_Location ;
-      rdfs:label "City"@en .
+###  http://purl.org/kinma/base#city
+:city rdf:type owl:Class ;
+      rdfs:subClassOf :geographic_location ;
+      rdfs:label "Cidade"@pt-br ,
+                 "City"@en .
 
 
-###  http://purl.org/kinma/base#Company
-:Company rdf:type owl:Class ;
-         rdfs:subClassOf :Organization ;
-         owl:disjointWith :Educational_Institution ,
-                          :Government ,
-                          :Ong ;
-         rdfs:label "Company"@en .
+###  http://purl.org/kinma/base#company
+:company rdf:type owl:Class ;
+         rdfs:subClassOf :organization ;
+         owl:disjointWith :educational_institution ,
+                          :government ,
+                          :ong ;
+         rdfs:label "Company"@en ,
+                    "Empresa"@pt-br .
 
 
-###  http://purl.org/kinma/base#Conference
-:Conference rdf:type owl:Class ;
-            rdfs:subClassOf :Generic_Event ;
-            rdfs:label "Conference"@en .
+###  http://purl.org/kinma/base#conference
+:conference rdf:type owl:Class ;
+            rdfs:subClassOf :generic_event ;
+            rdfs:label "Conference"@en ,
+                       "Conferência"@pt-br .
 
 
-###  http://purl.org/kinma/base#Country
-:Country rdf:type owl:Class ;
-         rdfs:subClassOf :Geographic_Location ;
-         rdfs:label "Country"@en .
+###  http://purl.org/kinma/base#country
+:country rdf:type owl:Class ;
+         rdfs:subClassOf :geographic_location ;
+         rdfs:label "Country"@en ,
+                    "País"@pt-br .
 
 
-###  http://purl.org/kinma/base#Course
-:Course rdf:type owl:Class ;
-        rdfs:subClassOf :Work .
+###  http://purl.org/kinma/base#course
+:course rdf:type owl:Class ;
+        rdfs:subClassOf :work .
 
 
-###  http://purl.org/kinma/base#Date_Period
-:Date_Period rdf:type owl:Class ;
-             rdfs:subClassOf :Time_Interval ;
-             rdfs:label "Date Period"@en .
+###  http://purl.org/kinma/base#date_period
+:date_period rdf:type owl:Class ;
+             rdfs:subClassOf :time_interval ;
+             rdfs:label "Date Period"@en ,
+                        "Período de data"@pt-br .
 
 
-###  http://purl.org/kinma/base#Date_Time
-:Date_Time rdf:type owl:Class ;
-           rdfs:subClassOf :Time_Instant ,
+###  http://purl.org/kinma/base#date_time
+:date_time rdf:type owl:Class ;
+           rdfs:subClassOf :time_instant ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasDateTimeValue ;
                              owl:someValuesFrom xsd:dateTime
                            ] ;
-           rdfs:label "Date Time"@en ;
+           rdfs:label "Data de data"@pt-br ,
+                      "Date Time"@en ;
            skos:definition "time point including a date and a time, optionally including a time zone offset" .
 
 
-###  http://purl.org/kinma/base#Document
-:Document rdf:type owl:Class ;
-          rdfs:subClassOf :Abstract ;
-          rdfs:label "Document"@en .
+###  http://purl.org/kinma/base#document
+:document rdf:type owl:Class ;
+          rdfs:subClassOf :abstract ;
+          rdfs:label "Document"@en ,
+                     "Documento"@pt-br .
 
 
-###  http://purl.org/kinma/base#Duration
-:Duration rdf:type owl:Class ;
-          rdfs:subClassOf :Time_Interval ,
+###  http://purl.org/kinma/base#duration
+:duration rdf:type owl:Class ;
+          rdfs:subClassOf :time_interval ,
                           [ rdf:type owl:Restriction ;
                             owl:onProperty :hasDurationValue ;
                             owl:someValuesFrom xsd:string
                           ] ;
-          rdfs:label "Duration"@en .
+          rdfs:label "Duration"@en ,
+                     "Duração"@pt-br .
 
 
-###  http://purl.org/kinma/base#Educational_Institution
-:Educational_Institution rdf:type owl:Class ;
-                         rdfs:subClassOf :Organization ;
-                         rdfs:label "Educational Institution"@en .
+###  http://purl.org/kinma/base#educational_institution
+:educational_institution rdf:type owl:Class ;
+                         rdfs:subClassOf :organization ;
+                         rdfs:label "Educational Institution"@en ,
+                                    "Instituição educacional"@pt-br .
 
 
-###  http://purl.org/kinma/base#Employee
-:Employee rdf:type owl:Class ;
-          rdfs:subClassOf :Person ;
-          rdfs:label "Employee"@en .
+###  http://purl.org/kinma/base#employee
+:employee rdf:type owl:Class ;
+          rdfs:subClassOf :person ;
+          rdfs:label "Employee"@en ,
+                     "Funcionário"@pt-br .
 
 
-###  http://purl.org/kinma/base#Entity
-:Entity rdf:type owl:Class ;
+###  http://purl.org/kinma/base#entity
+:entity rdf:type owl:Class ;
         rdfs:subClassOf owl:Thing ;
-        rdfs:label "Entity"@en .
+        rdfs:label "Entidade"@pt-br ,
+                   "Entity"@en .
 
 
-###  http://purl.org/kinma/base#Equipment
-:Equipment rdf:type owl:Class ;
-           rdfs:subClassOf :Physical ;
-           rdfs:label "Equipment"@en .
+###  http://purl.org/kinma/base#equipment
+:equipment rdf:type owl:Class ;
+           rdfs:subClassOf :physical ;
+           rdfs:label "Equipamento"@pt-br ,
+                      "Equipment"@en .
 
 
-###  http://purl.org/kinma/base#File
-:File rdf:type owl:Class ;
-      rdfs:subClassOf :Abstract ;
-      rdfs:label "File"@en .
+###  http://purl.org/kinma/base#file
+:file rdf:type owl:Class ;
+      rdfs:subClassOf :abstract ;
+      rdfs:label "Arquivo"@pt-br ,
+                 "File"@en .
 
 
-###  http://purl.org/kinma/base#Generic_Event
-:Generic_Event rdf:type owl:Class ;
-               rdfs:subClassOf :Occurrence ;
-               rdfs:label "Generic Event"@en .
+###  http://purl.org/kinma/base#generic_event
+:generic_event rdf:type owl:Class ;
+               rdfs:subClassOf :occurrence ;
+               rdfs:label "Evento genérico"@pt-br ,
+                          "Generic Event"@en .
 
 
-###  http://purl.org/kinma/base#Geographic_Location
-:Geographic_Location rdf:type owl:Class ;
+###  http://purl.org/kinma/base#geographic_location
+:geographic_location rdf:type owl:Class ;
                      rdfs:subClassOf owl:Thing ;
-                     rdfs:label "Geographic Location"@en .
+                     rdfs:label "Geographic Location"@en ,
+                                "Localização geográfica"@pt-br .
 
 
-###  http://purl.org/kinma/base#Government
-:Government rdf:type owl:Class ;
-            rdfs:subClassOf :Organization ;
-            rdfs:label "Government"@en .
+###  http://purl.org/kinma/base#government
+:government rdf:type owl:Class ;
+            rdfs:subClassOf :organization ;
+            rdfs:label "Government"@en ,
+                       "Governo"@pt-br .
 
 
-###  http://purl.org/kinma/base#Graduate_Student
-:Graduate_Student rdf:type owl:Class ;
-                  rdfs:subClassOf :Student ;
-                  rdfs:label "Graduate Student"@en .
+###  http://purl.org/kinma/base#graduate_student
+:graduate_student rdf:type owl:Class ;
+                  rdfs:subClassOf :student ;
+                  rdfs:label "Estudante de pós -graduação"@pt-br ,
+                             "Graduate Student"@en .
 
 
-###  http://purl.org/kinma/base#Identity
-:Identity rdf:type owl:Class ;
+###  http://purl.org/kinma/base#identity
+:identity rdf:type owl:Class ;
           rdfs:subClassOf owl:Thing ;
-          rdfs:label "Identity"@en .
+          rdfs:label "Identidade"@pt-br ,
+                     "Identity"@en .
 
 
-###  http://purl.org/kinma/base#Industry
-:Industry rdf:type owl:Class ;
-          rdfs:subClassOf :Company ;
-          rdfs:label "Industry"@en .
+###  http://purl.org/kinma/base#industry
+:industry rdf:type owl:Class ;
+          rdfs:subClassOf :company ;
+          rdfs:label "Industry"@en ,
+                     "Indústria"@pt-br .
 
 
-###  http://purl.org/kinma/base#Meeting
-:Meeting rdf:type owl:Class ;
-         rdfs:subClassOf :Generic_Event ;
-         rdfs:label "Meeting"@en .
+###  http://purl.org/kinma/base#meeting
+:meeting rdf:type owl:Class ;
+         rdfs:subClassOf :generic_event ;
+         rdfs:label "Meeting"@en ,
+                    "Reunião"@pt-br .
 
 
-###  http://purl.org/kinma/base#Neighborhood
-:Neighborhood rdf:type owl:Class ;
-              rdfs:subClassOf :Geographic_Location ;
-              rdfs:label "Neighborhood"@en .
+###  http://purl.org/kinma/base#neighborhood
+:neighborhood rdf:type owl:Class ;
+              rdfs:subClassOf :geographic_location ;
+              rdfs:label "Neighborhood"@en ,
+                         "Vizinhança"@pt-br .
 
 
-###  http://purl.org/kinma/base#Networking
-:Networking rdf:type owl:Class ;
-            rdfs:subClassOf :Activity ;
-            rdfs:label "Networking"@en .
+###  http://purl.org/kinma/base#networking
+:networking rdf:type owl:Class ;
+            rdfs:subClassOf :activity ;
+            rdfs:label "Networking"@en ,
+                       "Networking"@pt-br .
 
 
-###  http://purl.org/kinma/base#Occurrence
-:Occurrence rdf:type owl:Class ;
+###  http://purl.org/kinma/base#occurrence
+:occurrence rdf:type owl:Class ;
             rdfs:subClassOf owl:Thing ;
-            rdfs:label "Occurrence"@en .
+            rdfs:label "Occurrence"@en ,
+                       "Ocorrência"@pt-br .
 
 
-###  http://purl.org/kinma/base#Ong
-:Ong rdf:type owl:Class ;
-     rdfs:subClassOf :Organization ;
-     rdfs:label "Ong"@en .
+###  http://purl.org/kinma/base#ong
+:ong rdf:type owl:Class ;
+     rdfs:subClassOf :organization ;
+     rdfs:label "Ong"@en ,
+                "Ong"@pt-br .
 
 
-###  http://purl.org/kinma/base#Organization
-:Organization rdf:type owl:Class ;
-              rdfs:subClassOf :Identity ;
-              rdfs:label "Organization"@en .
+###  http://purl.org/kinma/base#organization
+:organization rdf:type owl:Class ;
+              rdfs:subClassOf :identity ;
+              rdfs:label "Organization"@en ,
+                         "Organização"@pt-br .
 
 
-###  http://purl.org/kinma/base#Organizational_Unit
-:Organizational_Unit rdf:type owl:Class ;
-                     rdfs:subClassOf :Organization ;
+###  http://purl.org/kinma/base#organizational_unit
+:organizational_unit rdf:type owl:Class ;
+                     rdfs:subClassOf :organization ;
                      rdfs:label "Organizational Unit"@en ,
                                 "Unidade Organizacional"@pt-br .
 
 
-###  http://purl.org/kinma/base#Person
-:Person rdf:type owl:Class ;
-        rdfs:subClassOf :Identity ;
-        rdfs:label "Person"@en .
+###  http://purl.org/kinma/base#person
+:person rdf:type owl:Class ;
+        rdfs:subClassOf :identity ;
+        rdfs:label "Person"@en ,
+                   "Pessoa"@pt-br .
 
 
-###  http://purl.org/kinma/base#Physical
-:Physical rdf:type owl:Class ;
-          rdfs:subClassOf :Entity ;
-          rdfs:label "Physical"@en .
+###  http://purl.org/kinma/base#physical
+:physical rdf:type owl:Class ;
+          rdfs:subClassOf :entity ;
+          rdfs:label "Físico"@pt-br ,
+                     "Physical"@en .
 
 
-###  http://purl.org/kinma/base#Postgraduate_Student
-:Postgraduate_Student rdf:type owl:Class ;
-                      rdfs:subClassOf :Student ;
-                      rdfs:label "Postgraduate Student"@en .
+###  http://purl.org/kinma/base#postgraduate_student
+:postgraduate_student rdf:type owl:Class ;
+                      rdfs:subClassOf :student ;
+                      rdfs:label "Estudante de pós -graduação"@pt-br ,
+                                 "Postgraduate Student"@en .
 
 
-###  http://purl.org/kinma/base#Product
-:Product rdf:type owl:Class ;
-         rdfs:subClassOf :Physical ;
-         rdfs:label "Product"@en .
+###  http://purl.org/kinma/base#product
+:product rdf:type owl:Class ;
+         rdfs:subClassOf :physical ;
+         rdfs:label "Product"@en ,
+                    "Produto"@pt-br .
 
 
-###  http://purl.org/kinma/base#Purchase
-:Purchase rdf:type owl:Class ;
-          rdfs:subClassOf :Action ;
-          rdfs:label "Purchase"@en .
+###  http://purl.org/kinma/base#purchase
+:purchase rdf:type owl:Class ;
+          rdfs:subClassOf :action ;
+          rdfs:label "Comprar"@pt-br ,
+                     "Purchase"@en .
 
 
-###  http://purl.org/kinma/base#Recreation
-:Recreation rdf:type owl:Class ;
-            rdfs:subClassOf :Activity ;
-            rdfs:label "Recreation"@en .
+###  http://purl.org/kinma/base#recreation
+:recreation rdf:type owl:Class ;
+            rdfs:subClassOf :activity ;
+            rdfs:label "Recreation"@en ,
+                       "Recreação"@pt-br .
 
 
-###  http://purl.org/kinma/base#Registration
-:Registration rdf:type owl:Class ;
-              rdfs:subClassOf :Action ;
-              rdfs:label "Registration"@en .
+###  http://purl.org/kinma/base#registration
+:registration rdf:type owl:Class ;
+              rdfs:subClassOf :action ;
+              rdfs:label "Registration"@en ,
+                         "Registro"@pt-br .
 
 
-###  http://purl.org/kinma/base#Research
-:Research rdf:type owl:Class ;
-          rdfs:subClassOf :Work .
+###  http://purl.org/kinma/base#research
+:research rdf:type owl:Class ;
+          rdfs:subClassOf :work .
 
 
-###  http://purl.org/kinma/base#Sale
-:Sale rdf:type owl:Class ;
-      rdfs:subClassOf :Action ;
-      rdfs:label "Sale"@en .
+###  http://purl.org/kinma/base#sale
+:sale rdf:type owl:Class ;
+      rdfs:subClassOf :action ;
+      rdfs:label "Oferta"@pt-br ,
+                 "Sale"@en .
 
 
-###  http://purl.org/kinma/base#Service
-:Service rdf:type owl:Class ;
-         rdfs:subClassOf :Company ;
-         rdfs:label "Service"@en .
+###  http://purl.org/kinma/base#service
+:service rdf:type owl:Class ;
+         rdfs:subClassOf :company ;
+         rdfs:label "Service"@en ,
+                    "Serviço"@pt-br .
 
 
-###  http://purl.org/kinma/base#State
-:State rdf:type owl:Class ;
-       rdfs:subClassOf :Geographic_Location ;
-       rdfs:label "State"@en .
+###  http://purl.org/kinma/base#state
+:state rdf:type owl:Class ;
+       rdfs:subClassOf :geographic_location ;
+       rdfs:label "Estado"@pt-br ,
+                  "State"@en .
 
 
-###  http://purl.org/kinma/base#Student
-:Student rdf:type owl:Class ;
-         rdfs:subClassOf :Person ;
-         rdfs:label "Student"@en .
+###  http://purl.org/kinma/base#student
+:student rdf:type owl:Class ;
+         rdfs:subClassOf :person ;
+         rdfs:label "Estudante"@pt-br ,
+                    "Student"@en .
 
 
-###  http://purl.org/kinma/base#Technological_Institute
-:Technological_Institute rdf:type owl:Class ;
-                         rdfs:subClassOf :Educational_Institution ;
-                         rdfs:label "Technological Institute"@en .
+###  http://purl.org/kinma/base#technological_institute
+:technological_institute rdf:type owl:Class ;
+                         rdfs:subClassOf :educational_institution ;
+                         rdfs:label "Instituto Tecnológico"@pt-br ,
+                                    "Technological Institute"@en .
 
 
-###  http://purl.org/kinma/base#Time_Dimension
-:Time_Dimension rdf:type owl:Class ;
+###  http://purl.org/kinma/base#time_dimension
+:time_dimension rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing ;
-                rdfs:label "Time Dimension"@en .
+                rdfs:label "Dimensão do tempo"@pt-br ,
+                           "Time Dimension"@en .
 
 
-###  http://purl.org/kinma/base#Time_Instant
-:Time_Instant rdf:type owl:Class ;
-              rdfs:subClassOf :Time_Dimension ;
-              rdfs:label "Time Instant"@en .
+###  http://purl.org/kinma/base#time_instant
+:time_instant rdf:type owl:Class ;
+              rdfs:subClassOf :time_dimension ;
+              rdfs:label "Tempo instantâneo"@pt-br ,
+                         "Time Instant"@en .
 
 
-###  http://purl.org/kinma/base#Time_Interval
-:Time_Interval rdf:type owl:Class ;
-               rdfs:subClassOf :Time_Dimension ;
-               rdfs:label "Time Interval"@en .
+###  http://purl.org/kinma/base#time_interval
+:time_interval rdf:type owl:Class ;
+               rdfs:subClassOf :time_dimension ;
+               rdfs:label "Intervalo de tempo"@pt-br ,
+                          "Time Interval"@en .
 
 
-###  http://purl.org/kinma/base#Time_of_Day
-:Time_of_Day rdf:type owl:Class ;
-             rdfs:subClassOf :Time_Instant ,
+###  http://purl.org/kinma/base#time_of_day
+:time_of_day rdf:type owl:Class ;
+             rdfs:subClassOf :time_instant ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty :hasTimeValue ;
                                owl:someValuesFrom xsd:string
                              ] ;
-             rdfs:label "Time of Day"@en ;
+             rdfs:label "Hora do dia"@pt-br ,
+                        "Time of Day"@en ;
              skos:definition "explicit time, according to a clock" .
 
 
-###  http://purl.org/kinma/base#Trade
-:Trade rdf:type owl:Class ;
-       rdfs:subClassOf :Company ;
-       rdfs:label "Trade"@en .
+###  http://purl.org/kinma/base#trade
+:trade rdf:type owl:Class ;
+       rdfs:subClassOf :company ;
+       rdfs:label "Trade"@en ,
+                  "Troca"@pt-br .
 
 
-###  http://purl.org/kinma/base#Transaction
-:Transaction rdf:type owl:Class ;
-             rdfs:subClassOf :Abstract ;
-             rdfs:label "Transaction"@en .
+###  http://purl.org/kinma/base#transaction
+:transaction rdf:type owl:Class ;
+             rdfs:subClassOf :abstract ;
+             rdfs:label "Transaction"@en ,
+                        "Transação"@pt-br .
 
 
-###  http://purl.org/kinma/base#Trip
-:Trip rdf:type owl:Class ;
-      rdfs:subClassOf :Generic_Event ;
-      rdfs:label "Trip"@en .
+###  http://purl.org/kinma/base#trip
+:trip rdf:type owl:Class ;
+      rdfs:subClassOf :generic_event ;
+      rdfs:label "Trip"@en ,
+                 "Viagem"@pt-br .
 
 
-###  http://purl.org/kinma/base#University
-:University rdf:type owl:Class ;
-            rdfs:subClassOf :Educational_Institution ;
-            rdfs:label "University"@en .
+###  http://purl.org/kinma/base#university
+:university rdf:type owl:Class ;
+            rdfs:subClassOf :educational_institution ;
+            rdfs:label "Universidade"@pt-br ,
+                       "University"@en .
 
 
-###  http://purl.org/kinma/base#Vehicle
-:Vehicle rdf:type owl:Class ;
-         rdfs:subClassOf :Physical ;
-         rdfs:label "Vehicle"@en .
+###  http://purl.org/kinma/base#vehicle
+:vehicle rdf:type owl:Class ;
+         rdfs:subClassOf :physical ;
+         rdfs:label "Vehicle"@en ,
+                    "Veículo"@pt-br .
 
 
-###  http://purl.org/kinma/base#Vocational_Student
-:Vocational_Student rdf:type owl:Class ;
-                    rdfs:subClassOf :Student ;
-                    rdfs:label "Vocational Student"@en .
+###  http://purl.org/kinma/base#vocational_student
+:vocational_student rdf:type owl:Class ;
+                    rdfs:subClassOf :student ;
+                    rdfs:label "Estudante vocacional"@pt-br ,
+                               "Vocational Student"@en .
 
 
-###  http://purl.org/kinma/base#Work
-:Work rdf:type owl:Class ;
-      rdfs:subClassOf :Activity ;
-      rdfs:label "Work"@en .
+###  http://purl.org/kinma/base#work
+:work rdf:type owl:Class ;
+      rdfs:subClassOf :activity ;
+      rdfs:label "Trabalhar"@pt-br ,
+                 "Work"@en .
 
 
 #################################################################
@@ -835,9 +875,9 @@ skos:definition rdf:type owl:AnnotationProperty .
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Educational_Institution
-                :Government
-                :Ong
+  owl:members ( :educational_institution
+                :government
+                :ong
               )
 ] .
 

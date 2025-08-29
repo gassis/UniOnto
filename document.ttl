@@ -18,27 +18,26 @@
 :containedIn rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :contains ;
-             rdfs:domain :Document ;
-             rdfs:range :Document ;
-             rdfs:label "containedIn"@en ,
-                        "contidoEm"@pt-br .
+             rdfs:domain :document ;
+             rdfs:range :document ;
+             rdfs:label "containedIn"@en .
 
 
 ###  http://purl.org/kinma/document#contains
 :contains rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdf:type owl:SymmetricProperty ;
-          rdfs:domain :Document ;
-          rdfs:range :Document ;
+          rdfs:domain :document ;
+          rdfs:range :document ;
           rdfs:label "contains"@en ,
-                     "contém"@pt-br .
+                     "contem"@pt-br .
 
 
 ###  http://purl.org/kinma/document#documentedBy
 :documentedBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:domain :Software ;
-              rdfs:range <http://purl.org/kinma/base#Identity> ;
+              rdfs:domain :software ;
+              rdfs:range <http://purl.org/kinma/base#identity> ;
               rdfs:label "documentadoPor"@pt-br ,
                          "documentedBy"@en .
 
@@ -47,46 +46,45 @@
 :hasAbstract rdf:type owl:ObjectProperty ,
                       owl:FunctionalProperty ;
              rdfs:label "hasAbstract"@en ,
-                        "temResumo"@pt-br .
+                        "temAbstrato"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasSubject
 :hasSubject rdf:type owl:ObjectProperty ;
-            rdfs:domain :Publication ;
-            rdfs:label "hasSubject"@en ,
-                       "temSujeito"@pt-br .
+            rdfs:domain :publication ;
+            rdfs:label "hasSubject"@en .
 
 
 ###  http://purl.org/kinma/document#isAuthor
 :isAuthor rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain <http://purl.org/kinma/base#Identity> ;
-          rdfs:range :Document ;
-          rdfs:label "isAuthor"@en ,
-                     "éAutor"@pt-br .
+          rdfs:domain <http://purl.org/kinma/base#identity> ;
+          rdfs:range :document ;
+          rdfs:label "eAutor"@pt-br ,
+                     "isAuthor"@en .
 
 
 ###  http://purl.org/kinma/document#isPublisher
 :isPublisher rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :publishedBy ;
-             rdfs:domain <http://purl.org/kinma/base#Identity> ;
-             rdfs:range :Publication ;
-             rdfs:label "isPublisher"@en ,
-                        "éEditor"@pt-br .
+             rdfs:domain <http://purl.org/kinma/base#identity> ;
+             rdfs:range :publication ;
+             rdfs:label "eEditor"@pt-br ,
+                        "isPublisher"@en .
 
 
 ###  http://purl.org/kinma/document#publishedBy
 :publishedBy rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :Publication ;
-             rdfs:range <http://purl.org/kinma/base#Identity> ;
+             rdfs:domain :publication ;
+             rdfs:range <http://purl.org/kinma/base#identity> ;
              rdfs:label "publicadoPor"@pt-br ,
                         "publishedBy"@en .
 
 
 ###  http://www.w3.org/2002/07/owl#topObjectProperty
-owl:topObjectProperty rdfs:range :Abstract .
+owl:topObjectProperty rdfs:range :abstract .
 
 
 #################################################################
@@ -96,49 +94,48 @@ owl:topObjectProperty rdfs:range :Abstract .
 ###  http://purl.org/kinma/capesareas#hasCode
 <http://purl.org/kinma/capesareas#hasCode> rdf:type owl:DatatypeProperty ;
                                            rdfs:range xsd:string ;
-                                           rdfs:comment "temCódigo"@pt-br ;
-                                           rdfs:label "hasCode"@en .
+                                           rdfs:label "hasCode"@en ,
+                                                      "temCodigo"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasBodyText
 :hasBodyText rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:label "hasBodyText"@en ,
-                        "temCorpoDeTexto"@pt-br .
+                        "temTextoCorporal"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasDOI
 :hasDOI rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdf:type owl:FunctionalProperty ;
-        rdfs:domain :Publication ;
+        rdfs:domain :publication ;
         rdfs:range xsd:string ;
         rdfs:label "hasDOI"@en ,
-                   "temDOI"@pt-br .
+                   "temDois"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasISSNorISBN
 :hasISSNorISBN rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdf:type owl:FunctionalProperty ;
-               rdfs:domain :Publication ;
+               rdfs:domain :publication ;
                rdfs:range xsd:string ;
                rdfs:label "hasISSN_ISBN"@en ,
-                          "temISSNouISBN"@pt-br .
+                          "temIssn_isbn"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasKeyword
 :hasKeyword rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Document ;
+            rdfs:domain :document ;
             rdfs:label "hasKeyword"@en ,
-                       "temPalavraChave"@pt-br .
+                       "temPalavra-chave"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasLanguage
 :hasLanguage rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Document ;
-             rdfs:label "hasLanguage"@en ,
-                        "temLinguagem"@pt-br .
+             rdfs:domain :document ;
+             rdfs:label "hasLanguage"@en .
 
 
 ###  http://purl.org/kinma/document#hasORCID
@@ -146,15 +143,15 @@ owl:topObjectProperty rdfs:range :Abstract .
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:range xsd:string ;
           rdfs:label "hasORCID"@en ,
-                     "temORCID"@pt-br .
+                     "temOrcid"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasSeries
 :hasSeries rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Publication ;
+           rdfs:domain :publication ;
            rdfs:range xsd:string ;
            rdfs:label "hasSeries"@en ,
-                      "temSérie"@pt-br .
+                      "temSeries"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasSubTitle
@@ -162,7 +159,7 @@ owl:topObjectProperty rdfs:range :Abstract .
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:range xsd:string ;
              rdfs:label "hasSubTitle"@en ,
-                        "temSubTítulo"@pt-br .
+                        "temSubTitulo"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasURL
@@ -170,16 +167,15 @@ owl:topObjectProperty rdfs:range :Abstract .
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:range xsd:string ;
         rdfs:label "hasURL"@en ,
-                   "temURL"@pt-br .
+                   "temUrl"@pt-br .
 
 
 ###  http://purl.org/kinma/document#hasVolume
 :hasVolume rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:domain :Publication ;
+           rdfs:domain :publication ;
            rdfs:range xsd:string ;
-           rdfs:label "hasVolume"@en ,
-                      "temVolume"@pt-br .
+           rdfs:label "hasVolume"@en .
 
 
 ###  http://www.w3.org/2002/07/owl#topDataProperty
@@ -190,290 +186,337 @@ owl:topDataProperty rdfs:subPropertyOf owl:topDataProperty .
 #    Classes
 #################################################################
 
-###  http://purl.org/kinma/document#Abstract
-:Abstract rdf:type owl:Class ;
-          rdfs:subClassOf :Document ;
-          rdfs:label "Abstract"@en .
+###  http://purl.org/kinma/document#abstract
+:abstract rdf:type owl:Class ;
+          rdfs:subClassOf :document ;
+          rdfs:label "Abstract"@en ,
+                     "Resumo"@pt-br .
 
 
-###  http://purl.org/kinma/document#Advertisement
-:Advertisement rdf:type owl:Class ;
-               rdfs:subClassOf :Publication ;
-               rdfs:label "Advertisement"@en .
+###  http://purl.org/kinma/document#advertisement
+:advertisement rdf:type owl:Class ;
+               rdfs:subClassOf :publication ;
+               rdfs:label "Advertisement"@en ,
+                          "Anúncio"@pt-br .
 
 
-###  http://purl.org/kinma/document#Article
-:Article rdf:type owl:Class ;
-         rdfs:subClassOf :Publication ;
-         rdfs:label "Article"@en .
+###  http://purl.org/kinma/document#article
+:article rdf:type owl:Class ;
+         rdfs:subClassOf :publication ;
+         rdfs:label "Article"@en ,
+                    "Artigo"@pt-br .
 
 
-###  http://purl.org/kinma/document#Book
-:Book rdf:type owl:Class ;
-      rdfs:subClassOf :Publication ;
-      rdfs:label "Book"@en .
+###  http://purl.org/kinma/document#book
+:book rdf:type owl:Class ;
+      rdfs:subClassOf :publication ;
+      rdfs:label "Book"@en ,
+                 "Livro"@pt-br .
 
 
-###  http://purl.org/kinma/document#Book_Article
-:Book_Article rdf:type owl:Class ;
-              rdfs:subClassOf :Article ;
-              rdfs:label "Book Article"@en .
+###  http://purl.org/kinma/document#book_article
+:book_article rdf:type owl:Class ;
+              rdfs:subClassOf :article ;
+              rdfs:label "Artigo do livro"@pt-br ,
+                         "Book Article"@en .
 
 
-###  http://purl.org/kinma/document#Comment
-:Comment rdf:type owl:Class ;
-         rdfs:subClassOf :Document ;
-         rdfs:label "Comment"@en .
+###  http://purl.org/kinma/document#comment
+:comment rdf:type owl:Class ;
+         rdfs:subClassOf :document ;
+         rdfs:label "Comentário"@pt-br ,
+                    "Comment"@en .
 
 
-###  http://purl.org/kinma/document#Communication
-:Communication rdf:type owl:Class ;
-               rdfs:label "Communication"@en .
+###  http://purl.org/kinma/document#communication
+:communication rdf:type owl:Class ;
+               rdfs:label "Communication"@en ,
+                          "Comunicação"@pt-br .
 
 
-###  http://purl.org/kinma/document#Conference_Paper
-:Conference_Paper rdf:type owl:Class ;
-                  rdfs:subClassOf :Article ;
-                  rdfs:label "Conference Paper"@en .
+###  http://purl.org/kinma/document#conference_paper
+:conference_paper rdf:type owl:Class ;
+                  rdfs:subClassOf :article ;
+                  rdfs:label "Artigo da conferência"@pt-br ,
+                             "Conference Paper"@en .
 
 
-###  http://purl.org/kinma/document#Correspondence
-:Correspondence rdf:type owl:Class ;
-                rdfs:subClassOf :Document ;
-                rdfs:label "Correspondence"@en .
+###  http://purl.org/kinma/document#correspondence
+:correspondence rdf:type owl:Class ;
+                rdfs:subClassOf :document ;
+                rdfs:label "Correspondence"@en ,
+                           "Correspondência"@pt-br .
 
 
-###  http://purl.org/kinma/document#Dictionary
-:Dictionary rdf:type owl:Class ;
-            rdfs:subClassOf :Publication ;
-            rdfs:label "Dictionary"@en .
+###  http://purl.org/kinma/document#dictionary
+:dictionary rdf:type owl:Class ;
+            rdfs:subClassOf :publication ;
+            rdfs:label "Dicionário"@pt-br ,
+                       "Dictionary"@en .
 
 
-###  http://purl.org/kinma/document#Doctoral_Thesis
-:Doctoral_Thesis rdf:type owl:Class ;
-                 rdfs:subClassOf :Thesis ;
-                 rdfs:label "Doctoral Thesis"@en .
+###  http://purl.org/kinma/document#doctoral_thesis
+:doctoral_thesis rdf:type owl:Class ;
+                 rdfs:subClassOf :thesis ;
+                 rdfs:label "Doctoral Thesis"@en ,
+                            "Tese de doutorado"@pt-br .
 
 
-###  http://purl.org/kinma/document#Document
-:Document rdf:type owl:Class ;
-          rdfs:subClassOf :Communication ;
-          rdfs:label "Document"@en .
+###  http://purl.org/kinma/document#document
+:document rdf:type owl:Class ;
+          rdfs:subClassOf :communication ;
+          rdfs:label "Document"@en ,
+                     "Documento"@pt-br .
 
 
-###  http://purl.org/kinma/document#Document_Representation
-:Document_Representation rdf:type owl:Class ;
-                         rdfs:subClassOf :Communication ;
-                         rdfs:label "Document Representation"@en .
+###  http://purl.org/kinma/document#document_representation
+:document_representation rdf:type owl:Class ;
+                         rdfs:subClassOf :communication ;
+                         rdfs:label "Document Representation"@en ,
+                                    "Representação de documentos"@pt-br .
 
 
-###  http://purl.org/kinma/document#Editorial
-:Editorial rdf:type owl:Class ;
-           rdfs:subClassOf :Publication ;
-           rdfs:label "Editorial"@en .
+###  http://purl.org/kinma/document#editorial
+:editorial rdf:type owl:Class ;
+           rdfs:subClassOf :publication ;
+           rdfs:label "Editorial"@en ,
+                      "Editorial"@pt-br .
 
 
-###  http://purl.org/kinma/document#Electronic_Document
-:Electronic_Document rdf:type owl:Class ;
-                     rdfs:subClassOf :Document_Representation ;
-                     rdfs:label "Electronic Document"@en .
+###  http://purl.org/kinma/document#electronic_document
+:electronic_document rdf:type owl:Class ;
+                     rdfs:subClassOf :document_representation ;
+                     rdfs:label "Documento eletrônico"@pt-br ,
+                                "Electronic Document"@en .
 
 
-###  http://purl.org/kinma/document#Email
-:Email rdf:type owl:Class ;
-       rdfs:subClassOf :Correspondence ;
-       rdfs:label "Email"@en .
+###  http://purl.org/kinma/document#email
+:email rdf:type owl:Class ;
+       rdfs:subClassOf :correspondence ;
+       rdfs:label "E-mail"@pt-br ,
+                  "Email"@en .
 
 
-###  http://purl.org/kinma/document#Form
-:Form rdf:type owl:Class ;
-      rdfs:subClassOf :Document ;
-      rdfs:label "Form"@en .
+###  http://purl.org/kinma/document#form
+:form rdf:type owl:Class ;
+      rdfs:subClassOf :document ;
+      rdfs:label "Form"@en ,
+                 "Forma"@pt-br .
 
 
-###  http://purl.org/kinma/document#Guideline
-:Guideline rdf:type owl:Class ;
-           rdfs:subClassOf :Document ;
-           rdfs:label "Guideline"@en .
+###  http://purl.org/kinma/document#guideline
+:guideline rdf:type owl:Class ;
+           rdfs:subClassOf :document ;
+           rdfs:label "Diretriz"@pt-br ,
+                      "Guideline"@en .
 
 
-###  http://purl.org/kinma/document#Homepage
-:Homepage rdf:type owl:Class ;
-          rdfs:subClassOf :Document ;
-          rdfs:label "Homepage"@en .
+###  http://purl.org/kinma/document#homepage
+:homepage rdf:type owl:Class ;
+          rdfs:subClassOf :document ;
+          rdfs:label "Homepage"@en ,
+                     "Página inicial"@pt-br .
 
 
-###  http://purl.org/kinma/document#Index
-:Index rdf:type owl:Class ;
-       rdfs:subClassOf :Document ;
-       rdfs:label "Index"@en .
+###  http://purl.org/kinma/document#index
+:index rdf:type owl:Class ;
+       rdfs:subClassOf :document ;
+       rdfs:label "Index"@en ,
+                  "Índice"@pt-br .
 
 
-###  http://purl.org/kinma/document#Journal
-:Journal rdf:type owl:Class ;
-         rdfs:subClassOf :Periodical ;
-         rdfs:label "Journal"@en .
+###  http://purl.org/kinma/document#journal
+:journal rdf:type owl:Class ;
+         rdfs:subClassOf :periodical ;
+         rdfs:label "Jornal"@pt-br ,
+                    "Journal"@en .
 
 
-###  http://purl.org/kinma/document#Journal_Article
-:Journal_Article rdf:type owl:Class ;
-                 rdfs:subClassOf :Article ;
-                 rdfs:label "Journal Article"@en .
+###  http://purl.org/kinma/document#journal_article
+:journal_article rdf:type owl:Class ;
+                 rdfs:subClassOf :article ;
+                 rdfs:label "Artigo da revista"@pt-br ,
+                            "Journal Article"@en .
 
 
-###  http://purl.org/kinma/document#Lecture
-:Lecture rdf:type owl:Class ;
-         rdfs:subClassOf :Document ;
-         rdfs:label "Lecture"@en .
+###  http://purl.org/kinma/document#lecture
+:lecture rdf:type owl:Class ;
+         rdfs:subClassOf :document ;
+         rdfs:label "Lecture"@en ,
+                    "Palestra"@pt-br .
 
 
-###  http://purl.org/kinma/document#Letter
-:Letter rdf:type owl:Class ;
-        rdfs:subClassOf :Correspondence ;
-        rdfs:label "Letter"@en .
+###  http://purl.org/kinma/document#letter
+:letter rdf:type owl:Class ;
+        rdfs:subClassOf :correspondence ;
+        rdfs:label "Carta"@pt-br ,
+                   "Letter"@en .
 
 
-###  http://purl.org/kinma/document#Magazine
-:Magazine rdf:type owl:Class ;
-          rdfs:subClassOf :Periodical ;
-          rdfs:label "Magazine"@en .
+###  http://purl.org/kinma/document#magazine
+:magazine rdf:type owl:Class ;
+          rdfs:subClassOf :periodical ;
+          rdfs:label "Magazine"@en ,
+                     "Revista"@pt-br .
 
 
-###  http://purl.org/kinma/document#Manual
-:Manual rdf:type owl:Class ;
-        rdfs:subClassOf :Publication ;
-        rdfs:label "Manual"@en .
+###  http://purl.org/kinma/document#manual
+:manual rdf:type owl:Class ;
+        rdfs:subClassOf :publication ;
+        rdfs:label "Manual"@en ,
+                   "Manual"@pt-br .
 
 
-###  http://purl.org/kinma/document#Manuscript
-:Manuscript rdf:type owl:Class ;
-            rdfs:subClassOf :Document ;
-            rdfs:label "Manuscript"@en .
+###  http://purl.org/kinma/document#manuscript
+:manuscript rdf:type owl:Class ;
+            rdfs:subClassOf :document ;
+            rdfs:label "Manuscript"@en ,
+                       "Manuscrito"@pt-br .
 
 
-###  http://purl.org/kinma/document#Master_Thesis
-:Master_Thesis rdf:type owl:Class ;
-               rdfs:subClassOf :Thesis ;
-               rdfs:label "Master Thesis"@en .
+###  http://purl.org/kinma/document#master_thesis
+:master_thesis rdf:type owl:Class ;
+               rdfs:subClassOf :thesis ;
+               rdfs:label "Master Thesis"@en ,
+                          "Tese de mestrado"@pt-br .
 
 
-###  http://purl.org/kinma/document#Minutes
-:Minutes rdf:type owl:Class ;
-         rdfs:subClassOf :Document ;
-         rdfs:label "Minutes"@en .
+###  http://purl.org/kinma/document#minutes
+:minutes rdf:type owl:Class ;
+         rdfs:subClassOf :document ;
+         rdfs:label "Minutes"@en ,
+                    "Minutos"@pt-br .
 
 
-###  http://purl.org/kinma/document#Monograph
-:Monograph rdf:type owl:Class ;
-           rdfs:subClassOf :Publication ;
-           rdfs:label "Monograph"@en .
+###  http://purl.org/kinma/document#monograph
+:monograph rdf:type owl:Class ;
+           rdfs:subClassOf :publication ;
+           rdfs:label "Monografia"@pt-br ,
+                      "Monograph"@en .
 
 
-###  http://purl.org/kinma/document#NewsPaper
-:NewsPaper rdf:type owl:Class ;
-           rdfs:subClassOf :Periodical ;
-           rdfs:label "Newspaper"@en .
+###  http://purl.org/kinma/document#newspaper
+:newspaper rdf:type owl:Class ;
+           rdfs:subClassOf :periodical ;
+           rdfs:label "Jornal"@pt-br ,
+                      "Newspaper"@en .
 
 
-###  http://purl.org/kinma/document#Organization_Homepage
-:Organization_Homepage rdf:type owl:Class ;
-                       rdfs:subClassOf :Homepage ;
-                       rdfs:label "Organization Homepage"@en .
+###  http://purl.org/kinma/document#organization_homepage
+:organization_homepage rdf:type owl:Class ;
+                       rdfs:subClassOf :homepage ;
+                       rdfs:label "Organization Homepage"@en ,
+                                  "Página inicial da organização"@pt-br .
 
 
-###  http://purl.org/kinma/document#Paper_Document
-:Paper_Document rdf:type owl:Class ;
-                rdfs:subClassOf :Document_Representation ;
-                rdfs:label "Paper Document"@en .
+###  http://purl.org/kinma/document#paper_document
+:paper_document rdf:type owl:Class ;
+                rdfs:subClassOf :document_representation ;
+                rdfs:label "Documento em papel"@pt-br ,
+                           "Paper Document"@en .
 
 
-###  http://purl.org/kinma/document#Periodical
-:Periodical rdf:type owl:Class ;
-            rdfs:subClassOf :Publication ;
-            rdfs:label "Periodical"@en .
+###  http://purl.org/kinma/document#periodical
+:periodical rdf:type owl:Class ;
+            rdfs:subClassOf :publication ;
+            rdfs:label "Periodical"@en ,
+                       "Periódico"@pt-br .
 
 
-###  http://purl.org/kinma/document#Personal_Homepage
-:Personal_Homepage rdf:type owl:Class ;
-                   rdfs:subClassOf :Homepage ;
-                   rdfs:label "Personal Homepage"@en .
+###  http://purl.org/kinma/document#personal_homepage
+:personal_homepage rdf:type owl:Class ;
+                   rdfs:subClassOf :homepage ;
+                   rdfs:label "Personal Homepage"@en ,
+                              "Página inicial pessoal"@pt-br .
 
 
-###  http://purl.org/kinma/document#Phone_Call
-:Phone_Call rdf:type owl:Class ;
-            rdfs:subClassOf :Communication ;
-            rdfs:label "Phone Call"@en .
+###  http://purl.org/kinma/document#phone_call
+:phone_call rdf:type owl:Class ;
+            rdfs:subClassOf :communication ;
+            rdfs:label "Phone Call"@en ,
+                       "Telefonema"@pt-br .
 
 
-###  http://purl.org/kinma/document#Postcard
-:Postcard rdf:type owl:Class ;
-          rdfs:subClassOf :Correspondence ;
-          rdfs:label "Postcard"@en .
+###  http://purl.org/kinma/document#postcard
+:postcard rdf:type owl:Class ;
+          rdfs:subClassOf :correspondence ;
+          rdfs:label "Cartão postal"@pt-br ,
+                     "Postcard"@en .
 
 
-###  http://purl.org/kinma/document#Preprint
-:Preprint rdf:type owl:Class ;
-          rdfs:subClassOf :Document ;
-          rdfs:label "Preprint"@en .
+###  http://purl.org/kinma/document#preprint
+:preprint rdf:type owl:Class ;
+          rdfs:subClassOf :document ;
+          rdfs:label "Preprint"@en ,
+                     "Pré -impressão"@pt-br .
 
 
-###  http://purl.org/kinma/document#Proceedings
-:Proceedings rdf:type owl:Class ;
-             rdfs:subClassOf :Publication ;
-             rdfs:label "Proceedings"@en .
+###  http://purl.org/kinma/document#proceedings
+:proceedings rdf:type owl:Class ;
+             rdfs:subClassOf :publication ;
+             rdfs:label "Procedimentos"@pt-br ,
+                        "Proceedings"@en .
 
 
-###  http://purl.org/kinma/document#Promotion
-:Promotion rdf:type owl:Class ;
-           rdfs:subClassOf :Document ;
-           rdfs:label "Promotion"@en .
+###  http://purl.org/kinma/document#promotion
+:promotion rdf:type owl:Class ;
+           rdfs:subClassOf :document ;
+           rdfs:label "Promotion"@en ,
+                      "Promoção"@pt-br .
 
 
-###  http://purl.org/kinma/document#Publication
-:Publication rdf:type owl:Class ;
-             rdfs:subClassOf :Document ;
-             rdfs:label "Publication"@en .
+###  http://purl.org/kinma/document#publication
+:publication rdf:type owl:Class ;
+             rdfs:subClassOf :document ;
+             rdfs:label "Publication"@en ,
+                        "Publicação"@pt-br .
 
 
-###  http://purl.org/kinma/document#Regulation
-:Regulation rdf:type owl:Class ;
-            rdfs:subClassOf :Publication ;
-            rdfs:label "Regulation"@en .
+###  http://purl.org/kinma/document#regulation
+:regulation rdf:type owl:Class ;
+            rdfs:subClassOf :publication ;
+            rdfs:label "Regulamento"@pt-br ,
+                       "Regulation"@en .
 
 
-###  http://purl.org/kinma/document#Software
-:Software rdf:type owl:Class ;
-          rdfs:subClassOf :Communication ;
-          rdfs:label "Software"@en .
+###  http://purl.org/kinma/document#software
+:software rdf:type owl:Class ;
+          rdfs:subClassOf :communication ;
+          rdfs:label "Software"@en ,
+                     "Software"@pt-br .
 
 
-###  http://purl.org/kinma/document#Specification
-:Specification rdf:type owl:Class ;
-               rdfs:subClassOf :Publication ;
-               rdfs:label "Specification"@en .
+###  http://purl.org/kinma/document#specification
+:specification rdf:type owl:Class ;
+               rdfs:subClassOf :publication ;
+               rdfs:label "Especificação"@pt-br ,
+                          "Specification"@en .
 
 
-###  http://purl.org/kinma/document#Speech
-:Speech rdf:type owl:Class ;
-        rdfs:subClassOf :Communication ;
-        rdfs:label "Speech"@en .
+###  http://purl.org/kinma/document#speech
+:speech rdf:type owl:Class ;
+        rdfs:subClassOf :communication ;
+        rdfs:label "Discurso"@pt-br ,
+                   "Speech"@en .
 
 
-###  http://purl.org/kinma/document#Technical_Report
-:Technical_Report rdf:type owl:Class ;
-                  rdfs:subClassOf :Publication ;
-                  rdfs:label "Technical Report"@en .
+###  http://purl.org/kinma/document#technical_report
+:technical_report rdf:type owl:Class ;
+                  rdfs:subClassOf :publication ;
+                  rdfs:label "Relatório Técnico"@pt-br ,
+                             "Technical Report"@en .
 
 
-###  http://purl.org/kinma/document#Thesis
-:Thesis rdf:type owl:Class ;
-        rdfs:subClassOf :Publication ;
-        rdfs:label "Thesis"@en .
+###  http://purl.org/kinma/document#thesis
+:thesis rdf:type owl:Class ;
+        rdfs:subClassOf :publication ;
+        rdfs:label "Tese"@pt-br ,
+                   "Thesis"@en .
 
 
-###  http://purl.org/kinma/document#Workshop_Paper
-:Workshop_Paper rdf:type owl:Class ;
-                rdfs:subClassOf :Article ;
+###  http://purl.org/kinma/document#workshop_paper
+:workshop_paper rdf:type owl:Class ;
+                rdfs:subClassOf :article ;
                 rdfs:label "Workshop Paper" .
 
 

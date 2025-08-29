@@ -28,8 +28,8 @@
     <!-- http://purl.org/kinma/base#employs -->
 
     <rdf:Description rdf:about="http://purl.org/kinma/base#employs">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Organization"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Person"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#organization"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#person"/>
     </rdf:Description>
     
 
@@ -37,8 +37,8 @@
     <!-- http://purl.org/kinma/base#isEmployedBy -->
 
     <rdf:Description rdf:about="http://purl.org/kinma/base#isEmployedBy">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Organization"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#organization"/>
     </rdf:Description>
     
 
@@ -48,10 +48,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#advisedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.org/kinma/ies#isAdvisor"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Student"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/ies#Academic"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#student"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/ies#academic"/>
+        <rdfs:label xml:lang="pt-br">aconselhadoPor</rdfs:label>
         <rdfs:label xml:lang="en">advisedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">orientadoPor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -60,8 +60,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#alumnusOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
         <rdfs:label xml:lang="pt-br">alumnusDe</rdfs:label>
         <rdfs:label xml:lang="en">alumnusOf</rdfs:label>
     </owl:ObjectProperty>
@@ -73,10 +73,9 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#courseFrom">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Course"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#course"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
         <rdfs:label xml:lang="en">courseFrom</rdfs:label>
-        <rdfs:label xml:lang="pt-br">cursoDe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -85,10 +84,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#doctoralDegreeFrom">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
         <rdfs:label xml:lang="en">doctoralDegreeFrom</rdfs:label>
-        <rdfs:label xml:lang="pt-br">doutoradoDe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -109,7 +107,6 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#headedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label xml:lang="en">headedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">lideradoPor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -118,10 +115,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#isAdvisor">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#Academic"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Student"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#academic"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#student"/>
+        <rdfs:label xml:lang="pt-br">eConsultor</rdfs:label>
         <rdfs:label xml:lang="en">isAdvisor</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éOrientador</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -131,10 +128,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#isOfferedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.org/kinma/ies#offers"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Activity"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#activity"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+        <rdfs:label xml:lang="pt-br">eOferecidoPor</rdfs:label>
         <rdfs:label xml:lang="en">isOfferedBy</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éOferecidoPor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -143,10 +140,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#masterDegreeFrom">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
         <rdfs:label xml:lang="en">masterDegreeFrom</rdfs:label>
-        <rdfs:label xml:lang="pt-br">mestreDe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -155,9 +151,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#offers">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Activity"/>
-        <rdfs:label xml:lang="pt-br">oferta</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#activity"/>
+        <rdfs:label xml:lang="pt-br">ofertas</rdfs:label>
         <rdfs:label xml:lang="en">offers</rdfs:label>
     </owl:ObjectProperty>
     
@@ -167,8 +163,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#publicationResearch">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
-        <rdfs:label xml:lang="pt-br">pesquisaDePublicação</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">pesquisaDePublicacao</rdfs:label>
         <rdfs:label xml:lang="en">publicationResearch</rdfs:label>
     </owl:ObjectProperty>
     
@@ -178,10 +174,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#researchInterest">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#Academic"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Research"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#academic"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#research"/>
         <rdfs:label xml:lang="en">hasResearchInterest</rdfs:label>
-        <rdfs:label xml:lang="pt-br">interesseDaPesquisa</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temInteresseDaPesquisa</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -190,9 +186,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#researchProject">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#Academic"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/ies#academic"/>
         <rdfs:label xml:lang="en">hasResearchProject</rdfs:label>
-        <rdfs:label xml:lang="pt-br">projetoDePesquisa</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temUmProjetoDePesquisa</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -201,9 +197,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#takesCourse">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Course"/>
-        <rdfs:label xml:lang="pt-br">cursa</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#course"/>
+        <rdfs:label xml:lang="pt-br">curva</rdfs:label>
         <rdfs:label xml:lang="en">takesCourse</rdfs:label>
     </owl:ObjectProperty>
     
@@ -213,9 +209,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/ies#undergraduateDegreeFrom">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Person"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Educational_Institution"/>
-        <rdfs:label xml:lang="pt-br">graduaçãoEm</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#person"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#educational_institution"/>
+        <rdfs:label xml:lang="pt-br">graduacaoEm</rdfs:label>
         <rdfs:label xml:lang="en">undergraduateDegreeFrom</rdfs:label>
     </owl:ObjectProperty>
     
@@ -232,18 +228,28 @@
     
 
 
-    <!-- http://purl.org/kinma/base#Research -->
+    <!-- http://purl.org/kinma/base#course -->
 
-    <rdf:Description rdf:about="http://purl.org/kinma/base#Research">
-        <owl:equivalentClass rdf:resource="http://purl.org/kinma/capesareas#Areas_of_Knowledge"/>
+    <rdf:Description rdf:about="http://purl.org/kinma/base#course">
+        <rdfs:label xml:lang="en">Course</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Curso</rdfs:label>
     </rdf:Description>
     
 
 
-    <!-- http://purl.org/kinma/ies#Academic -->
+    <!-- http://purl.org/kinma/base#research -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Academic">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Employee"/>
+    <rdf:Description rdf:about="http://purl.org/kinma/base#research">
+        <rdfs:label xml:lang="pt-br">Pesquisa</rdfs:label>
+        <rdfs:label xml:lang="en">Research</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/kinma/ies#academic -->
+
+    <owl:Class rdf:about="http://purl.org/kinma/ies#academic">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#employee"/>
         <rdfs:label xml:lang="en">Academic</rdfs:label>
         <rdfs:label xml:lang="pt-br">Acadêmico</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q37226</rdfs:seeAlso>
@@ -251,35 +257,38 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#AdjunctProfessor -->
+    <!-- http://purl.org/kinma/ies#adjunctprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#AdjunctProfessor">
-        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#ProfessorDIII"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#adjunctprofessor">
+        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#professordiii"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Adjunct Professor</rdfs:label>
         <rdfs:label xml:lang="en">AdjunctProfessor</rdfs:label>
         <rdfs:label xml:lang="en">Assistant Teacher</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Assistente</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor adjunto</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Administrative -->
+    <!-- http://purl.org/kinma/ies#administrative -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Administrative">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Employee"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#administrative">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#employee"/>
         <rdfs:label xml:lang="en">Administrative</rdfs:label>
         <rdfs:label xml:lang="en">Administrative Technical Career In Education (tae)</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Administrativo</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Carreira Técnica Administrativa em Educação (TAE)</rdfs:label>
         <rdfs:label xml:lang="pt-br">Carreira técnico administrativo em educação (TAE)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#AssistantProfessor -->
+    <!-- http://purl.org/kinma/ies#assistantprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#AssistantProfessor">
-        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#ProfessorDII"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#assistantprofessor">
+        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#professordii"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Assistant Professor</rdfs:label>
         <rdfs:label xml:lang="en">Assistant Teacher</rdfs:label>
         <rdfs:label xml:lang="en">AssistantProfessor</rdfs:label>
@@ -288,38 +297,42 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#AssociateProfessor -->
+    <!-- http://purl.org/kinma/ies#associateprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#AssociateProfessor">
-        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#ProfessorDIV"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#associateprofessor">
+        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#professordiv"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Associate Professor</rdfs:label>
         <rdfs:label xml:lang="en">AssociateProfessor</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor Associado</rdfs:label>
+        <rdfs:label xml:lang="pt-br">professor adjunto</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#AuxiliarProfessor -->
+    <!-- http://purl.org/kinma/ies#auxiliarprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#AuxiliarProfessor">
-        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#ProfessorDI"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#auxiliarprofessor">
+        <owl:equivalentClass rdf:resource="http://purl.org/kinma/ies#professordi"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Assistant Teacher</rdfs:label>
         <rdfs:label xml:lang="en">Auxiliar Professor</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Auxiliar Professor</rdfs:label>
         <rdfs:label xml:lang="en">AuxiliarProfessor</rdfs:label>
+        <rdfs:label xml:lang="pt-br">AuxiliarProfessor</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Assistente</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor auxiliar</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Chief -->
+    <!-- http://purl.org/kinma/ies#chief -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Chief">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#FullProfessor"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#chief">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#fullprofessor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Boss</rdfs:label>
         <rdfs:label xml:lang="pt-br">Chefe</rdfs:label>
         <rdfs:label xml:lang="en">Chief</rdfs:label>
@@ -328,60 +341,63 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#Collegiate -->
+    <!-- http://purl.org/kinma/ies#collegiate -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Collegiate">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Academic_Structure"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#collegiate">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#academic_structure"/>
         <rdfs:label xml:lang="pt-br">Colegiado</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Colegial</rdfs:label>
         <rdfs:label xml:lang="en">Collegiate</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Coordination -->
+    <!-- http://purl.org/kinma/ies#coordination -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Coordination">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Academic_Structure"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#coordination">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#academic_structure"/>
         <rdfs:label xml:lang="pt-br">Coordenação</rdfs:label>
         <rdfs:label xml:lang="en">Coordination</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Coordinator -->
+    <!-- http://purl.org/kinma/ies#coordinator -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Coordinator">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#FullProfessor"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Staff"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#coordinator">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#fullprofessor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#staff"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="pt-br">Cooordenador</rdfs:label>
         <rdfs:label xml:lang="en">Coordenador</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Coordenador</rdfs:label>
         <rdfs:label xml:lang="en">Coordinator</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q20481199</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Council -->
+    <!-- http://purl.org/kinma/ies#council -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Council">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Academic_Structure"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#council">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#academic_structure"/>
         <rdfs:label xml:lang="pt-br">Conselho</rdfs:label>
         <rdfs:label xml:lang="en">Council</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Dean -->
+    <!-- http://purl.org/kinma/ies#dean -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Dean">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#FullProfessor"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#dean">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#fullprofessor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Dean</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Decano</rdfs:label>
         <rdfs:label xml:lang="en">Rector</rdfs:label>
         <rdfs:label xml:lang="pt-br">Reitor</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q723682</rdfs:seeAlso>
@@ -389,13 +405,13 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#Director -->
+    <!-- http://purl.org/kinma/ies#director -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Director">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#FullProfessor"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#director">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#fullprofessor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Director</rdfs:label>
         <rdfs:label xml:lang="pt-br">Diretor</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q1162163</rdfs:seeAlso>
@@ -403,141 +419,163 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#FullProfessor -->
+    <!-- http://purl.org/kinma/ies#fullprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#FullProfessor">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Academic"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#fullprofessor">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#academic"/>
         <rdfs:label xml:lang="en">Full Class Professor</rdfs:label>
         <rdfs:label xml:lang="en">Full Professor</rdfs:label>
         <rdfs:label xml:lang="en">FullProfessor</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor classe titular</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor de classe completa</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor pleno</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q25339110</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Institute -->
+    <!-- http://purl.org/kinma/ies#institute -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Institute">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Academic_Structure"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#institute">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#academic_structure"/>
         <rdfs:label xml:lang="en">Institute</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Instituto</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#InstituteCareer -->
+    <!-- http://purl.org/kinma/ies#institutecareer -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#InstituteCareer">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Academic"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#institutecareer">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#academic"/>
         <rdfs:label xml:lang="en">Basic, Technical And Technological Teaching Career (ebtt)</rdfs:label>
         <rdfs:label xml:lang="pt-br">Carreira de ensino basico, técnico e tecnológico (EBTT)</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Carreira de ensino básica, técnica e tecnológica (EBTT)</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q1371037</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q9826</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Manager -->
+    <!-- http://purl.org/kinma/ies#manager -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Manager">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Staff"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#manager">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#staff"/>
+        <rdfs:label xml:lang="pt-br">Gerente</rdfs:label>
         <rdfs:label xml:lang="en">Manager</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q2462658</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#ProDean -->
+    <!-- http://purl.org/kinma/ies#prodean -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#ProDean">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#FullProfessor"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Staff"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#UniversityCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#prodean">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#fullprofessor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#staff"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#universitycareer"/>
         <rdfs:label xml:lang="en">Dean</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Decano</rdfs:label>
         <rdfs:label xml:lang="en">Pro Dean</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Pro Dean</rdfs:label>
         <rdfs:label xml:lang="en">ProDean</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Prodean</rdfs:label>
         <rdfs:label xml:lang="pt-br">Pró-reitor</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q110988122</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#ProfessorDI -->
+    <!-- http://purl.org/kinma/ies#professordi -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#ProfessorDI">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#professordi">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:label xml:lang="pt-br">Professor</rdfs:label>
         <rdfs:label xml:lang="en">Professor Class D I</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Classe D i</rdfs:label>
         <rdfs:label xml:lang="en">Professor DI</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor classe D I</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor de</rdfs:label>
         <rdfs:label xml:lang="en">ProfessorDI</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#ProfessorDII -->
+    <!-- http://purl.org/kinma/ies#professordii -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#ProfessorDII">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#professordii">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
         <rdfs:label xml:lang="en">Class D Ii Professor</rdfs:label>
         <rdfs:label xml:lang="en">Professor DII</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor DII</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor classe D II</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor da Classe D II</rdfs:label>
         <rdfs:label xml:lang="en">ProfessorDII</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professordii</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#ProfessorDIII -->
+    <!-- http://purl.org/kinma/ies#professordiii -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#ProfessorDIII">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#professordiii">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
+        <rdfs:label xml:lang="pt-br">Professor</rdfs:label>
         <rdfs:label xml:lang="en">Professor Classe 500 3</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Classe 500 3</rdfs:label>
         <rdfs:label xml:lang="en">Professor DIII</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor classe D III</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor dos Deuses</rdfs:label>
         <rdfs:label xml:lang="en">ProfessorDIII</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#ProfessorDIV -->
+    <!-- http://purl.org/kinma/ies#professordiv -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#ProfessorDIV">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#InstituteCareer"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#professordiv">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#institutecareer"/>
         <rdfs:label xml:lang="en">Professor Class D Iv</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Classe D IV</rdfs:label>
         <rdfs:label xml:lang="en">Professor DIV</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professor Div</rdfs:label>
         <rdfs:label xml:lang="pt-br">Professor classe D IV</rdfs:label>
         <rdfs:label xml:lang="en">ProfessorDIV</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Professores</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#School -->
+    <!-- http://purl.org/kinma/ies#school -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#School">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#Academic_Structure"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#school">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/base#academic_structure"/>
         <rdfs:label xml:lang="pt-br">Escola</rdfs:label>
         <rdfs:label xml:lang="en">School</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#Staff -->
+    <!-- http://purl.org/kinma/ies#staff -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#Staff">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Administrative"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#staff">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#administrative"/>
+        <rdfs:label xml:lang="pt-br">Funcionários</rdfs:label>
         <rdfs:label xml:lang="en">Staff</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Q3151057</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/ies#UniversityCareer -->
+    <!-- http://purl.org/kinma/ies#universitycareer -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#UniversityCareer">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Academic"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#universitycareer">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#academic"/>
         <rdfs:label xml:lang="pt-br">Carreira do ensino superior</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Carreira universitária</rdfs:label>
         <rdfs:label xml:lang="en">Higher Education Career</rdfs:label>
         <rdfs:label xml:lang="en">University Career</rdfs:label>
         <rdfs:label xml:lang="en">UniversityCareer</rdfs:label>
@@ -546,10 +584,10 @@
     
 
 
-    <!-- http://purl.org/kinma/ies#VisitingProfessor -->
+    <!-- http://purl.org/kinma/ies#visitingprofessor -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/ies#VisitingProfessor">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#Academic"/>
+    <owl:Class rdf:about="http://purl.org/kinma/ies#visitingprofessor">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/ies#academic"/>
         <rdfs:label xml:lang="pt-br">Professor visitante</rdfs:label>
         <rdfs:label xml:lang="en">Visiting Professor</rdfs:label>
         <rdfs:label xml:lang="en">Visiting Teacher</rdfs:label>

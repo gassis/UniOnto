@@ -16,30 +16,30 @@
 #################################################################
 
 ###  http://purl.org/kinma/base#employs
-<http://purl.org/kinma/base#employs> rdfs:domain <http://purl.org/kinma/base#Organization> ;
-                                     rdfs:range <http://purl.org/kinma/base#Person> .
+<http://purl.org/kinma/base#employs> rdfs:domain <http://purl.org/kinma/base#organization> ;
+                                     rdfs:range <http://purl.org/kinma/base#person> .
 
 
 ###  http://purl.org/kinma/base#isEmployedBy
-<http://purl.org/kinma/base#isEmployedBy> rdfs:domain <http://purl.org/kinma/base#Person> ;
-                                          rdfs:range <http://purl.org/kinma/base#Organization> .
+<http://purl.org/kinma/base#isEmployedBy> rdfs:domain <http://purl.org/kinma/base#person> ;
+                                          rdfs:range <http://purl.org/kinma/base#organization> .
 
 
 ###  http://purl.org/kinma/ies#advisedBy
 :advisedBy rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            owl:inverseOf :isAdvisor ;
-           rdfs:domain <http://purl.org/kinma/base#Student> ;
-           rdfs:range :Academic ;
-           rdfs:label "advisedBy"@en ,
-                      "orientadoPor"@pt-br .
+           rdfs:domain <http://purl.org/kinma/base#student> ;
+           rdfs:range :academic ;
+           rdfs:label "aconselhadoPor"@pt-br ,
+                      "advisedBy"@en .
 
 
 ###  http://purl.org/kinma/ies#alumnusOf
 :alumnusOf rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain <http://purl.org/kinma/base#Person> ;
-           rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
+           rdfs:domain <http://purl.org/kinma/base#person> ;
+           rdfs:range <http://purl.org/kinma/base#educational_institution> ;
            rdfs:label "alumnusDe"@pt-br ,
                       "alumnusOf"@en .
 
@@ -48,19 +48,17 @@
 :courseFrom rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:FunctionalProperty ;
-            rdfs:domain <http://purl.org/kinma/base#Course> ;
-            rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
-            rdfs:label "courseFrom"@en ,
-                       "cursoDe"@pt-br .
+            rdfs:domain <http://purl.org/kinma/base#course> ;
+            rdfs:range <http://purl.org/kinma/base#educational_institution> ;
+            rdfs:label "courseFrom"@en .
 
 
 ###  http://purl.org/kinma/ies#doctoralDegreeFrom
 :doctoralDegreeFrom rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf owl:topObjectProperty ;
-                    rdfs:domain <http://purl.org/kinma/base#Person> ;
-                    rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
-                    rdfs:label "doctoralDegreeFrom"@en ,
-                               "doutoradoDe"@pt-br .
+                    rdfs:domain <http://purl.org/kinma/base#person> ;
+                    rdfs:range <http://purl.org/kinma/base#educational_institution> ;
+                    rdfs:label "doctoralDegreeFrom"@en .
 
 
 ###  http://purl.org/kinma/ies#headOf
@@ -74,87 +72,85 @@
 ###  http://purl.org/kinma/ies#headedBy
 :headedBy rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:label "headedBy"@en ,
-                     "lideradoPor"@pt-br .
+          rdfs:label "headedBy"@en .
 
 
 ###  http://purl.org/kinma/ies#isAdvisor
 :isAdvisor rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :Academic ;
-           rdfs:range <http://purl.org/kinma/base#Student> ;
-           rdfs:label "isAdvisor"@en ,
-                      "éOrientador"@pt-br .
+           rdfs:domain :academic ;
+           rdfs:range <http://purl.org/kinma/base#student> ;
+           rdfs:label "eConsultor"@pt-br ,
+                      "isAdvisor"@en .
 
 
 ###  http://purl.org/kinma/ies#isOfferedBy
 :isOfferedBy rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :offers ;
-             rdfs:domain <http://purl.org/kinma/base#Activity> ;
-             rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
-             rdfs:label "isOfferedBy"@en ,
-                        "éOferecidoPor"@pt-br .
+             rdfs:domain <http://purl.org/kinma/base#activity> ;
+             rdfs:range <http://purl.org/kinma/base#educational_institution> ;
+             rdfs:label "eOferecidoPor"@pt-br ,
+                        "isOfferedBy"@en .
 
 
 ###  http://purl.org/kinma/ies#masterDegreeFrom
 :masterDegreeFrom rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
-                  rdfs:domain <http://purl.org/kinma/base#Person> ;
-                  rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
-                  rdfs:label "masterDegreeFrom"@en ,
-                             "mestreDe"@pt-br .
+                  rdfs:domain <http://purl.org/kinma/base#person> ;
+                  rdfs:range <http://purl.org/kinma/base#educational_institution> ;
+                  rdfs:label "masterDegreeFrom"@en .
 
 
 ###  http://purl.org/kinma/ies#offers
 :offers rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf owl:topObjectProperty ;
-        rdfs:domain <http://purl.org/kinma/base#Educational_Institution> ;
-        rdfs:range <http://purl.org/kinma/base#Activity> ;
-        rdfs:label "oferta"@pt-br ,
+        rdfs:domain <http://purl.org/kinma/base#educational_institution> ;
+        rdfs:range <http://purl.org/kinma/base#activity> ;
+        rdfs:label "ofertas"@pt-br ,
                    "offers"@en .
 
 
 ###  http://purl.org/kinma/ies#publicationResearch
 :publicationResearch rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
-                     rdfs:domain <http://purl.org/kinma/document#Publication> ;
-                     rdfs:label "pesquisaDePublicação"@pt-br ,
+                     rdfs:domain <http://purl.org/kinma/document#publication> ;
+                     rdfs:label "pesquisaDePublicacao"@pt-br ,
                                 "publicationResearch"@en .
 
 
 ###  http://purl.org/kinma/ies#researchInterest
 :researchInterest rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
-                  rdfs:domain :Academic ;
-                  rdfs:range <http://purl.org/kinma/base#Research> ;
+                  rdfs:domain :academic ;
+                  rdfs:range <http://purl.org/kinma/base#research> ;
                   rdfs:label "hasResearchInterest"@en ,
-                             "interesseDaPesquisa"@pt-br .
+                             "temInteresseDaPesquisa"@pt-br .
 
 
 ###  http://purl.org/kinma/ies#researchProject
 :researchProject rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
-                 rdfs:domain :Academic ;
+                 rdfs:domain :academic ;
                  rdfs:label "hasResearchProject"@en ,
-                            "projetoDePesquisa"@pt-br .
+                            "temUmProjetoDePesquisa"@pt-br .
 
 
 ###  http://purl.org/kinma/ies#takesCourse
 :takesCourse rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain <http://purl.org/kinma/base#Person> ;
-             rdfs:range <http://purl.org/kinma/base#Course> ;
-             rdfs:label "cursa"@pt-br ,
+             rdfs:domain <http://purl.org/kinma/base#person> ;
+             rdfs:range <http://purl.org/kinma/base#course> ;
+             rdfs:label "curva"@pt-br ,
                         "takesCourse"@en .
 
 
 ###  http://purl.org/kinma/ies#undergraduateDegreeFrom
 :undergraduateDegreeFrom rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf owl:topObjectProperty ;
-                         rdfs:domain <http://purl.org/kinma/base#Person> ;
-                         rdfs:range <http://purl.org/kinma/base#Educational_Institution> ;
-                         rdfs:label "graduaçãoEm"@pt-br ,
+                         rdfs:domain <http://purl.org/kinma/base#person> ;
+                         rdfs:range <http://purl.org/kinma/base#educational_institution> ;
+                         rdfs:label "graduacaoEm"@pt-br ,
                                     "undergraduateDegreeFrom"@en .
 
 
@@ -162,244 +158,282 @@
 #    Classes
 #################################################################
 
-###  http://purl.org/kinma/base#Research
-<http://purl.org/kinma/base#Research> owl:equivalentClass <http://purl.org/kinma/capesareas#Areas_of_Knowledge> .
+###  http://purl.org/kinma/base#course
+<http://purl.org/kinma/base#course> rdfs:label "Course"@en ,
+                                               "Curso"@pt-br .
 
 
-###  http://purl.org/kinma/ies#Academic
-:Academic rdf:type owl:Class ;
-          rdfs:subClassOf <http://purl.org/kinma/base#Employee> ;
+###  http://purl.org/kinma/base#research
+<http://purl.org/kinma/base#research> rdfs:label "Pesquisa"@pt-br ,
+                                                 "Research"@en .
+
+
+###  http://purl.org/kinma/ies#academic
+:academic rdf:type owl:Class ;
+          rdfs:subClassOf <http://purl.org/kinma/base#employee> ;
           rdfs:label "Academic"@en ,
                      "Acadêmico"@pt-br ;
           rdfs:seeAlso "https://www.wikidata.org/wiki/Q37226" .
 
 
-###  http://purl.org/kinma/ies#AdjunctProfessor
-:AdjunctProfessor rdf:type owl:Class ;
-                  owl:equivalentClass :ProfessorDIII ;
-                  rdfs:subClassOf :UniversityCareer ;
+###  http://purl.org/kinma/ies#adjunctprofessor
+:adjunctprofessor rdf:type owl:Class ;
+                  owl:equivalentClass :professordiii ;
+                  rdfs:subClassOf :universitycareer ;
                   rdfs:label "Adjunct Professor"@en ,
                              "AdjunctProfessor"@en ,
                              "Assistant Teacher"@en ,
+                             "Professor Assistente"@pt-br ,
                              "Professor adjunto"@pt-br .
 
 
-###  http://purl.org/kinma/ies#Administrative
-:Administrative rdf:type owl:Class ;
-                rdfs:subClassOf <http://purl.org/kinma/base#Employee> ;
+###  http://purl.org/kinma/ies#administrative
+:administrative rdf:type owl:Class ;
+                rdfs:subClassOf <http://purl.org/kinma/base#employee> ;
                 rdfs:label "Administrative"@en ,
                            "Administrative Technical Career In Education (tae)"@en ,
+                           "Administrativo"@pt-br ,
+                           "Carreira Técnica Administrativa em Educação (TAE)"@pt-br ,
                            "Carreira técnico administrativo em educação (TAE)"@pt-br .
 
 
-###  http://purl.org/kinma/ies#AssistantProfessor
-:AssistantProfessor rdf:type owl:Class ;
-                    owl:equivalentClass :ProfessorDII ;
-                    rdfs:subClassOf :UniversityCareer ;
+###  http://purl.org/kinma/ies#assistantprofessor
+:assistantprofessor rdf:type owl:Class ;
+                    owl:equivalentClass :professordii ;
+                    rdfs:subClassOf :universitycareer ;
                     rdfs:label "Assistant Professor"@en ,
                                "Assistant Teacher"@en ,
                                "AssistantProfessor"@en ,
                                "Professor Assistente"@pt-br .
 
 
-###  http://purl.org/kinma/ies#AssociateProfessor
-:AssociateProfessor rdf:type owl:Class ;
-                    owl:equivalentClass :ProfessorDIV ;
-                    rdfs:subClassOf :UniversityCareer ;
+###  http://purl.org/kinma/ies#associateprofessor
+:associateprofessor rdf:type owl:Class ;
+                    owl:equivalentClass :professordiv ;
+                    rdfs:subClassOf :universitycareer ;
                     rdfs:label "Associate Professor"@en ,
                                "AssociateProfessor"@en ,
-                               "Professor Associado"@pt-br .
+                               "Professor Associado"@pt-br ,
+                               "professor adjunto"@pt-br .
 
 
-###  http://purl.org/kinma/ies#AuxiliarProfessor
-:AuxiliarProfessor rdf:type owl:Class ;
-                   owl:equivalentClass :ProfessorDI ;
-                   rdfs:subClassOf :UniversityCareer ;
+###  http://purl.org/kinma/ies#auxiliarprofessor
+:auxiliarprofessor rdf:type owl:Class ;
+                   owl:equivalentClass :professordi ;
+                   rdfs:subClassOf :universitycareer ;
                    rdfs:label "Assistant Teacher"@en ,
                               "Auxiliar Professor"@en ,
+                              "Auxiliar Professor"@pt-br ,
                               "AuxiliarProfessor"@en ,
+                              "AuxiliarProfessor"@pt-br ,
+                              "Professor Assistente"@pt-br ,
                               "Professor auxiliar"@pt-br .
 
 
-###  http://purl.org/kinma/ies#Chief
-:Chief rdf:type owl:Class ;
-       rdfs:subClassOf :Administrative ,
-                       :FullProfessor ,
-                       :InstituteCareer ,
-                       :UniversityCareer ;
+###  http://purl.org/kinma/ies#chief
+:chief rdf:type owl:Class ;
+       rdfs:subClassOf :administrative ,
+                       :fullprofessor ,
+                       :institutecareer ,
+                       :universitycareer ;
        rdfs:label "Boss"@en ,
                   "Chefe"@pt-br ,
                   "Chief"@en ;
        rdfs:seeAlso "https://www.wikidata.org/wiki/Q1162163" .
 
 
-###  http://purl.org/kinma/ies#Collegiate
-:Collegiate rdf:type owl:Class ;
-            rdfs:subClassOf <http://purl.org/kinma/base#Academic_Structure> ;
+###  http://purl.org/kinma/ies#collegiate
+:collegiate rdf:type owl:Class ;
+            rdfs:subClassOf <http://purl.org/kinma/base#academic_structure> ;
             rdfs:label "Colegiado"@pt-br ,
+                       "Colegial"@pt-br ,
                        "Collegiate"@en .
 
 
-###  http://purl.org/kinma/ies#Coordination
-:Coordination rdf:type owl:Class ;
-              rdfs:subClassOf <http://purl.org/kinma/base#Academic_Structure> ;
+###  http://purl.org/kinma/ies#coordination
+:coordination rdf:type owl:Class ;
+              rdfs:subClassOf <http://purl.org/kinma/base#academic_structure> ;
               rdfs:label "Coordenação"@pt-br ,
                          "Coordination"@en .
 
 
-###  http://purl.org/kinma/ies#Coordinator
-:Coordinator rdf:type owl:Class ;
-             rdfs:subClassOf :Administrative ,
-                             :FullProfessor ,
-                             :InstituteCareer ,
-                             :Staff ,
-                             :UniversityCareer ;
+###  http://purl.org/kinma/ies#coordinator
+:coordinator rdf:type owl:Class ;
+             rdfs:subClassOf :administrative ,
+                             :fullprofessor ,
+                             :institutecareer ,
+                             :staff ,
+                             :universitycareer ;
              rdfs:label "Cooordenador"@pt-br ,
                         "Coordenador"@en ,
+                        "Coordenador"@pt-br ,
                         "Coordinator"@en ;
              rdfs:seeAlso "https://www.wikidata.org/wiki/Q20481199" .
 
 
-###  http://purl.org/kinma/ies#Council
-:Council rdf:type owl:Class ;
-         rdfs:subClassOf <http://purl.org/kinma/base#Academic_Structure> ;
+###  http://purl.org/kinma/ies#council
+:council rdf:type owl:Class ;
+         rdfs:subClassOf <http://purl.org/kinma/base#academic_structure> ;
          rdfs:label "Conselho"@pt-br ,
                     "Council"@en .
 
 
-###  http://purl.org/kinma/ies#Dean
-:Dean rdf:type owl:Class ;
-      rdfs:subClassOf :Administrative ,
-                      :FullProfessor ,
-                      :InstituteCareer ,
-                      :UniversityCareer ;
+###  http://purl.org/kinma/ies#dean
+:dean rdf:type owl:Class ;
+      rdfs:subClassOf :administrative ,
+                      :fullprofessor ,
+                      :institutecareer ,
+                      :universitycareer ;
       rdfs:label "Dean"@en ,
+                 "Decano"@pt-br ,
                  "Rector"@en ,
                  "Reitor"@pt-br ;
       rdfs:seeAlso "https://www.wikidata.org/wiki/Q723682" .
 
 
-###  http://purl.org/kinma/ies#Director
-:Director rdf:type owl:Class ;
-          rdfs:subClassOf :Administrative ,
-                          :FullProfessor ,
-                          :InstituteCareer ,
-                          :UniversityCareer ;
+###  http://purl.org/kinma/ies#director
+:director rdf:type owl:Class ;
+          rdfs:subClassOf :administrative ,
+                          :fullprofessor ,
+                          :institutecareer ,
+                          :universitycareer ;
           rdfs:label "Director"@en ,
                      "Diretor"@pt-br ;
           rdfs:seeAlso "https://www.wikidata.org/wiki/Q1162163" .
 
 
-###  http://purl.org/kinma/ies#FullProfessor
-:FullProfessor rdf:type owl:Class ;
-               rdfs:subClassOf :Academic ;
+###  http://purl.org/kinma/ies#fullprofessor
+:fullprofessor rdf:type owl:Class ;
+               rdfs:subClassOf :academic ;
                rdfs:label "Full Class Professor"@en ,
                           "Full Professor"@en ,
                           "FullProfessor"@en ,
-                          "Professor classe titular"@pt-br ;
+                          "Professor classe titular"@pt-br ,
+                          "Professor de classe completa"@pt-br ,
+                          "Professor pleno"@pt-br ;
                rdfs:seeAlso "https://www.wikidata.org/wiki/Q25339110" .
 
 
-###  http://purl.org/kinma/ies#Institute
-:Institute rdf:type owl:Class ;
-           rdfs:subClassOf <http://purl.org/kinma/base#Academic_Structure> ;
-           rdfs:label "Institute"@en .
+###  http://purl.org/kinma/ies#institute
+:institute rdf:type owl:Class ;
+           rdfs:subClassOf <http://purl.org/kinma/base#academic_structure> ;
+           rdfs:label "Institute"@en ,
+                      "Instituto"@pt-br .
 
 
-###  http://purl.org/kinma/ies#InstituteCareer
-:InstituteCareer rdf:type owl:Class ;
-                 rdfs:subClassOf :Academic ;
+###  http://purl.org/kinma/ies#institutecareer
+:institutecareer rdf:type owl:Class ;
+                 rdfs:subClassOf :academic ;
                  rdfs:label "Basic, Technical And Technological Teaching Career (ebtt)"@en ,
-                            "Carreira de ensino basico, técnico e tecnológico (EBTT)"@pt-br ;
+                            "Carreira de ensino basico, técnico e tecnológico (EBTT)"@pt-br ,
+                            "Carreira de ensino básica, técnica e tecnológica (EBTT)"@pt-br ;
                  rdfs:seeAlso "https://www.wikidata.org/wiki/Q1371037" ,
                               "https://www.wikidata.org/wiki/Q9826" .
 
 
-###  http://purl.org/kinma/ies#Manager
-:Manager rdf:type owl:Class ;
-         rdfs:subClassOf :Administrative ,
-                         :Staff ;
-         rdfs:label "Manager"@en ;
+###  http://purl.org/kinma/ies#manager
+:manager rdf:type owl:Class ;
+         rdfs:subClassOf :administrative ,
+                         :staff ;
+         rdfs:label "Gerente"@pt-br ,
+                    "Manager"@en ;
          rdfs:seeAlso "https://www.wikidata.org/wiki/Q2462658" .
 
 
-###  http://purl.org/kinma/ies#ProDean
-:ProDean rdf:type owl:Class ;
-         rdfs:subClassOf :Administrative ,
-                         :FullProfessor ,
-                         :InstituteCareer ,
-                         :Staff ,
-                         :UniversityCareer ;
+###  http://purl.org/kinma/ies#prodean
+:prodean rdf:type owl:Class ;
+         rdfs:subClassOf :administrative ,
+                         :fullprofessor ,
+                         :institutecareer ,
+                         :staff ,
+                         :universitycareer ;
          rdfs:label "Dean"@en ,
+                    "Decano"@pt-br ,
                     "Pro Dean"@en ,
+                    "Pro Dean"@pt-br ,
                     "ProDean"@en ,
+                    "Prodean"@pt-br ,
                     "Pró-reitor"@pt-br ;
          rdfs:seeAlso "https://www.wikidata.org/wiki/Q110988122" .
 
 
-###  http://purl.org/kinma/ies#ProfessorDI
-:ProfessorDI rdf:type owl:Class ;
-             rdfs:subClassOf :InstituteCareer ;
-             rdfs:label "Professor Class D I"@en ,
+###  http://purl.org/kinma/ies#professordi
+:professordi rdf:type owl:Class ;
+             rdfs:subClassOf :institutecareer ;
+             rdfs:label "Professor"@pt-br ,
+                        "Professor Class D I"@en ,
+                        "Professor Classe D i"@pt-br ,
                         "Professor DI"@en ,
                         "Professor classe D I"@pt-br ,
+                        "Professor de"@pt-br ,
                         "ProfessorDI"@en .
 
 
-###  http://purl.org/kinma/ies#ProfessorDII
-:ProfessorDII rdf:type owl:Class ;
-              rdfs:subClassOf :InstituteCareer ;
+###  http://purl.org/kinma/ies#professordii
+:professordii rdf:type owl:Class ;
+              rdfs:subClassOf :institutecareer ;
               rdfs:label "Class D Ii Professor"@en ,
                          "Professor DII"@en ,
+                         "Professor DII"@pt-br ,
                          "Professor classe D II"@pt-br ,
-                         "ProfessorDII"@en .
+                         "Professor da Classe D II"@pt-br ,
+                         "ProfessorDII"@en ,
+                         "Professordii"@pt-br .
 
 
-###  http://purl.org/kinma/ies#ProfessorDIII
-:ProfessorDIII rdf:type owl:Class ;
-               rdfs:subClassOf :InstituteCareer ;
-               rdfs:label "Professor Classe 500 3"@en ,
+###  http://purl.org/kinma/ies#professordiii
+:professordiii rdf:type owl:Class ;
+               rdfs:subClassOf :institutecareer ;
+               rdfs:label "Professor"@pt-br ,
+                          "Professor Classe 500 3"@en ,
+                          "Professor Classe 500 3"@pt-br ,
                           "Professor DIII"@en ,
                           "Professor classe D III"@pt-br ,
+                          "Professor dos Deuses"@pt-br ,
                           "ProfessorDIII"@en .
 
 
-###  http://purl.org/kinma/ies#ProfessorDIV
-:ProfessorDIV rdf:type owl:Class ;
-              rdfs:subClassOf :InstituteCareer ;
+###  http://purl.org/kinma/ies#professordiv
+:professordiv rdf:type owl:Class ;
+              rdfs:subClassOf :institutecareer ;
               rdfs:label "Professor Class D Iv"@en ,
+                         "Professor Classe D IV"@pt-br ,
                          "Professor DIV"@en ,
+                         "Professor Div"@pt-br ,
                          "Professor classe D IV"@pt-br ,
-                         "ProfessorDIV"@en .
+                         "ProfessorDIV"@en ,
+                         "Professores"@pt-br .
 
 
-###  http://purl.org/kinma/ies#School
-:School rdf:type owl:Class ;
-        rdfs:subClassOf <http://purl.org/kinma/base#Academic_Structure> ;
+###  http://purl.org/kinma/ies#school
+:school rdf:type owl:Class ;
+        rdfs:subClassOf <http://purl.org/kinma/base#academic_structure> ;
         rdfs:label "Escola"@pt-br ,
                    "School"@en .
 
 
-###  http://purl.org/kinma/ies#Staff
-:Staff rdf:type owl:Class ;
-       rdfs:subClassOf :Administrative ;
-       rdfs:label "Staff"@en ;
+###  http://purl.org/kinma/ies#staff
+:staff rdf:type owl:Class ;
+       rdfs:subClassOf :administrative ;
+       rdfs:label "Funcionários"@pt-br ,
+                  "Staff"@en ;
        rdfs:seeAlso "https://www.wikidata.org/wiki/Q3151057" .
 
 
-###  http://purl.org/kinma/ies#UniversityCareer
-:UniversityCareer rdf:type owl:Class ;
-                  rdfs:subClassOf :Academic ;
+###  http://purl.org/kinma/ies#universitycareer
+:universitycareer rdf:type owl:Class ;
+                  rdfs:subClassOf :academic ;
                   rdfs:label "Carreira do ensino superior"@pt-br ,
+                             "Carreira universitária"@pt-br ,
                              "Higher Education Career"@en ,
                              "University Career"@en ,
                              "UniversityCareer"@en ;
                   rdfs:seeAlso "https://www.wikidata.org/wiki/Q1622272" .
 
 
-###  http://purl.org/kinma/ies#VisitingProfessor
-:VisitingProfessor rdf:type owl:Class ;
-                   rdfs:subClassOf :Academic ;
+###  http://purl.org/kinma/ies#visitingprofessor
+:visitingprofessor rdf:type owl:Class ;
+                   rdfs:subClassOf :academic ;
                    rdfs:label "Professor visitante"@pt-br ,
                               "Visiting Professor"@en ,
                               "Visiting Teacher"@en ,

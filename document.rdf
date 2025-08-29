@@ -29,10 +29,9 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#containedIn">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.org/kinma/document#contains"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Document"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/document#Document"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#document"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">containedIn</rdfs:label>
-        <rdfs:label xml:lang="pt-br">contidoEm</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -42,10 +41,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#contains">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Document"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/document#Document"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#document"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">contains</rdfs:label>
-        <rdfs:label xml:lang="pt-br">contém</rdfs:label>
+        <rdfs:label xml:lang="pt-br">contem</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -54,8 +53,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#documentedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Software"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Identity"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#software"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#identity"/>
         <rdfs:label xml:lang="pt-br">documentadoPor</rdfs:label>
         <rdfs:label xml:lang="en">documentedBy</rdfs:label>
     </owl:ObjectProperty>
@@ -67,7 +66,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#hasAbstract">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">hasAbstract</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temResumo</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temAbstrato</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -75,9 +74,8 @@
     <!-- http://purl.org/kinma/document#hasSubject -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#hasSubject">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">hasSubject</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temSujeito</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -86,10 +84,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#isAuthor">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/document#Document"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#identity"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/document#document"/>
+        <rdfs:label xml:lang="pt-br">eAutor</rdfs:label>
         <rdfs:label xml:lang="en">isAuthor</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éAutor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -99,10 +97,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#isPublisher">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.org/kinma/document#publishedBy"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/base#Identity"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/base#identity"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">eEditor</rdfs:label>
         <rdfs:label xml:lang="en">isPublisher</rdfs:label>
-        <rdfs:label xml:lang="pt-br">éEditor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -111,8 +109,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/kinma/document#publishedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
-        <rdfs:range rdf:resource="http://purl.org/kinma/base#Identity"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/base#identity"/>
         <rdfs:label xml:lang="pt-br">publicadoPor</rdfs:label>
         <rdfs:label xml:lang="en">publishedBy</rdfs:label>
     </owl:ObjectProperty>
@@ -122,7 +120,7 @@
     <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:range rdf:resource="http://purl.org/kinma/document#Abstract"/>
+        <rdfs:range rdf:resource="http://purl.org/kinma/document#abstract"/>
     </rdf:Description>
     
 
@@ -142,8 +140,8 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/capesareas#hasCode">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="pt-br">temCódigo</rdfs:comment>
         <rdfs:label xml:lang="en">hasCode</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temCodigo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -153,7 +151,7 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasBodyText">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:label xml:lang="en">hasBodyText</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temCorpoDeTexto</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temTextoCorporal</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -163,10 +161,10 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasDOI">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasDOI</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temDOI</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temDois</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -176,10 +174,10 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasISSNorISBN">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasISSN_ISBN</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temISSNouISBN</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temIssn_isbn</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -187,9 +185,9 @@
     <!-- http://purl.org/kinma/document#hasKeyword -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasKeyword">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Document"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">hasKeyword</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temPalavraChave</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temPalavra-chave</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -197,9 +195,8 @@
     <!-- http://purl.org/kinma/document#hasLanguage -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasLanguage">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Document"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">hasLanguage</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temLinguagem</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -210,7 +207,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasORCID</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temORCID</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temOrcid</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -218,10 +215,10 @@
     <!-- http://purl.org/kinma/document#hasSeries -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasSeries">
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasSeries</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temSérie</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temSeries</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -232,7 +229,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasSubTitle</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temSubTítulo</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temSubTitulo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -243,7 +240,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasURL</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temURL</rdfs:label>
+        <rdfs:label xml:lang="pt-br">temUrl</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -252,10 +249,9 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/kinma/document#hasVolume">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/kinma/document#Publication"/>
+        <rdfs:domain rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hasVolume</rdfs:label>
-        <rdfs:label xml:lang="pt-br">temVolume</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -279,432 +275,479 @@
     
 
 
-    <!-- http://purl.org/kinma/document#Abstract -->
+    <!-- http://purl.org/kinma/document#abstract -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Abstract">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#abstract">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Abstract</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Resumo</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Advertisement -->
+    <!-- http://purl.org/kinma/document#advertisement -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Advertisement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#advertisement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Advertisement</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Anúncio</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Article -->
+    <!-- http://purl.org/kinma/document#article -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Article">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#article">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Article</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Artigo</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Book -->
+    <!-- http://purl.org/kinma/document#book -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Book">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#book">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Book</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Livro</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Book_Article -->
+    <!-- http://purl.org/kinma/document#book_article -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Book_Article">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Article"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#book_article">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#article"/>
+        <rdfs:label xml:lang="pt-br">Artigo do livro</rdfs:label>
         <rdfs:label xml:lang="en">Book Article</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Comment -->
+    <!-- http://purl.org/kinma/document#comment -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Comment">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#comment">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
+        <rdfs:label xml:lang="pt-br">Comentário</rdfs:label>
         <rdfs:label xml:lang="en">Comment</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Communication -->
+    <!-- http://purl.org/kinma/document#communication -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Communication">
+    <owl:Class rdf:about="http://purl.org/kinma/document#communication">
         <rdfs:label xml:lang="en">Communication</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Comunicação</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Conference_Paper -->
+    <!-- http://purl.org/kinma/document#conference_paper -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Conference_Paper">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Article"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#conference_paper">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#article"/>
+        <rdfs:label xml:lang="pt-br">Artigo da conferência</rdfs:label>
         <rdfs:label xml:lang="en">Conference Paper</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Correspondence -->
+    <!-- http://purl.org/kinma/document#correspondence -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Correspondence">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#correspondence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Correspondence</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Correspondência</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Dictionary -->
+    <!-- http://purl.org/kinma/document#dictionary -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Dictionary">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#dictionary">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Dicionário</rdfs:label>
         <rdfs:label xml:lang="en">Dictionary</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Doctoral_Thesis -->
+    <!-- http://purl.org/kinma/document#doctoral_thesis -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Doctoral_Thesis">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Thesis"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#doctoral_thesis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#thesis"/>
         <rdfs:label xml:lang="en">Doctoral Thesis</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Tese de doutorado</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Document -->
+    <!-- http://purl.org/kinma/document#document -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Document">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Communication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#document">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#communication"/>
         <rdfs:label xml:lang="en">Document</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Documento</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Document_Representation -->
+    <!-- http://purl.org/kinma/document#document_representation -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Document_Representation">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Communication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#document_representation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#communication"/>
         <rdfs:label xml:lang="en">Document Representation</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Representação de documentos</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Editorial -->
+    <!-- http://purl.org/kinma/document#editorial -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Editorial">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#editorial">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Editorial</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Editorial</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Electronic_Document -->
+    <!-- http://purl.org/kinma/document#electronic_document -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Electronic_Document">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document_Representation"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#electronic_document">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document_representation"/>
+        <rdfs:label xml:lang="pt-br">Documento eletrônico</rdfs:label>
         <rdfs:label xml:lang="en">Electronic Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Email -->
+    <!-- http://purl.org/kinma/document#email -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Email">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Correspondence"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#email">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#correspondence"/>
+        <rdfs:label xml:lang="pt-br">E-mail</rdfs:label>
         <rdfs:label xml:lang="en">Email</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Form -->
+    <!-- http://purl.org/kinma/document#form -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Form">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#form">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Form</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Forma</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Guideline -->
+    <!-- http://purl.org/kinma/document#guideline -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Guideline">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#guideline">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
+        <rdfs:label xml:lang="pt-br">Diretriz</rdfs:label>
         <rdfs:label xml:lang="en">Guideline</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Homepage -->
+    <!-- http://purl.org/kinma/document#homepage -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Homepage">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#homepage">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Homepage</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Página inicial</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Index -->
+    <!-- http://purl.org/kinma/document#index -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Index">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#index">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Index</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Índice</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Journal -->
+    <!-- http://purl.org/kinma/document#journal -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Journal">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Periodical"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#journal">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#periodical"/>
+        <rdfs:label xml:lang="pt-br">Jornal</rdfs:label>
         <rdfs:label xml:lang="en">Journal</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Journal_Article -->
+    <!-- http://purl.org/kinma/document#journal_article -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Journal_Article">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Article"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#journal_article">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#article"/>
+        <rdfs:label xml:lang="pt-br">Artigo da revista</rdfs:label>
         <rdfs:label xml:lang="en">Journal Article</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Lecture -->
+    <!-- http://purl.org/kinma/document#lecture -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Lecture">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#lecture">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Lecture</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Palestra</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Letter -->
+    <!-- http://purl.org/kinma/document#letter -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Letter">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Correspondence"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#letter">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#correspondence"/>
+        <rdfs:label xml:lang="pt-br">Carta</rdfs:label>
         <rdfs:label xml:lang="en">Letter</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Magazine -->
+    <!-- http://purl.org/kinma/document#magazine -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Magazine">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Periodical"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#magazine">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#periodical"/>
         <rdfs:label xml:lang="en">Magazine</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Revista</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Manual -->
+    <!-- http://purl.org/kinma/document#manual -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Manual">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#manual">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Manual</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Manual</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Manuscript -->
+    <!-- http://purl.org/kinma/document#manuscript -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Manuscript">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#manuscript">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Manuscript</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Manuscrito</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Master_Thesis -->
+    <!-- http://purl.org/kinma/document#master_thesis -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Master_Thesis">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Thesis"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#master_thesis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#thesis"/>
         <rdfs:label xml:lang="en">Master Thesis</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Tese de mestrado</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Minutes -->
+    <!-- http://purl.org/kinma/document#minutes -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Minutes">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#minutes">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Minutes</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Minutos</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Monograph -->
+    <!-- http://purl.org/kinma/document#monograph -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Monograph">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#monograph">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Monografia</rdfs:label>
         <rdfs:label xml:lang="en">Monograph</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#NewsPaper -->
+    <!-- http://purl.org/kinma/document#newspaper -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#NewsPaper">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Periodical"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#newspaper">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#periodical"/>
+        <rdfs:label xml:lang="pt-br">Jornal</rdfs:label>
         <rdfs:label xml:lang="en">Newspaper</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Organization_Homepage -->
+    <!-- http://purl.org/kinma/document#organization_homepage -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Organization_Homepage">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Homepage"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#organization_homepage">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#homepage"/>
         <rdfs:label xml:lang="en">Organization Homepage</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Página inicial da organização</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Paper_Document -->
+    <!-- http://purl.org/kinma/document#paper_document -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Paper_Document">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document_Representation"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#paper_document">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document_representation"/>
+        <rdfs:label xml:lang="pt-br">Documento em papel</rdfs:label>
         <rdfs:label xml:lang="en">Paper Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Periodical -->
+    <!-- http://purl.org/kinma/document#periodical -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Periodical">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#periodical">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
         <rdfs:label xml:lang="en">Periodical</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Periódico</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Personal_Homepage -->
+    <!-- http://purl.org/kinma/document#personal_homepage -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Personal_Homepage">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Homepage"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#personal_homepage">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#homepage"/>
         <rdfs:label xml:lang="en">Personal Homepage</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Página inicial pessoal</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Phone_Call -->
+    <!-- http://purl.org/kinma/document#phone_call -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Phone_Call">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Communication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#phone_call">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#communication"/>
         <rdfs:label xml:lang="en">Phone Call</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Telefonema</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Postcard -->
+    <!-- http://purl.org/kinma/document#postcard -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Postcard">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Correspondence"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#postcard">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#correspondence"/>
+        <rdfs:label xml:lang="pt-br">Cartão postal</rdfs:label>
         <rdfs:label xml:lang="en">Postcard</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Preprint -->
+    <!-- http://purl.org/kinma/document#preprint -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Preprint">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#preprint">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Preprint</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Pré -impressão</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Proceedings -->
+    <!-- http://purl.org/kinma/document#proceedings -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Proceedings">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#proceedings">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Procedimentos</rdfs:label>
         <rdfs:label xml:lang="en">Proceedings</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Promotion -->
+    <!-- http://purl.org/kinma/document#promotion -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Promotion">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#promotion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Promotion</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Promoção</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Publication -->
+    <!-- http://purl.org/kinma/document#publication -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Publication">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Document"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#publication">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#document"/>
         <rdfs:label xml:lang="en">Publication</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Publicação</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Regulation -->
+    <!-- http://purl.org/kinma/document#regulation -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Regulation">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#regulation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Regulamento</rdfs:label>
         <rdfs:label xml:lang="en">Regulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Software -->
+    <!-- http://purl.org/kinma/document#software -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Software">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Communication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#software">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#communication"/>
         <rdfs:label xml:lang="en">Software</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Software</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Specification -->
+    <!-- http://purl.org/kinma/document#specification -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Specification">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#specification">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Especificação</rdfs:label>
         <rdfs:label xml:lang="en">Specification</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Speech -->
+    <!-- http://purl.org/kinma/document#speech -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Speech">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Communication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#speech">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#communication"/>
+        <rdfs:label xml:lang="pt-br">Discurso</rdfs:label>
         <rdfs:label xml:lang="en">Speech</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Technical_Report -->
+    <!-- http://purl.org/kinma/document#technical_report -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Technical_Report">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#technical_report">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Relatório Técnico</rdfs:label>
         <rdfs:label xml:lang="en">Technical Report</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Thesis -->
+    <!-- http://purl.org/kinma/document#thesis -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Thesis">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Publication"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#thesis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#publication"/>
+        <rdfs:label xml:lang="pt-br">Tese</rdfs:label>
         <rdfs:label xml:lang="en">Thesis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/kinma/document#Workshop_Paper -->
+    <!-- http://purl.org/kinma/document#workshop_paper -->
 
-    <owl:Class rdf:about="http://purl.org/kinma/document#Workshop_Paper">
-        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#Article"/>
+    <owl:Class rdf:about="http://purl.org/kinma/document#workshop_paper">
+        <rdfs:subClassOf rdf:resource="http://purl.org/kinma/document#article"/>
         <rdfs:label>Workshop Paper</rdfs:label>
     </owl:Class>
 </rdf:RDF>
